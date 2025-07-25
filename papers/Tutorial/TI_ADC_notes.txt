@@ -1,0 +1,90 @@
+Video : https://www.youtube.com/watch?v=D-9oa-XviCA&ab_channel=SSCDIITKanpur
+
+Abstract:
+	TI is fast and high-resolution at the same time, compared to other ADC's. Disadvantage is that introducing the systematic errors due to mismatch. If you want to use smaller area => Pipelined and TI ADCs ; simplest and largest area => array of SAR is fine. ENOBish parameters are not perfect way to describe a figure of merit. We shouldn't merge all parameters into single one.
+
+Introduction:
+	There are more than 2 parameters when it comes to performance of ADC's. Like power, frequency, and SNR.
+	As we try to develop better one, we always expect more power hungry than before the one at the begginning.
+
+Fundamental Error Sources:
+	Additive and quantization noises. Both needs bigger area and higher power as a solution
+
+Time-Interleaved Error Sources:
+
+	? : Due to 1/f noise 
+
+Additive and Multiplicative Error Sources:
+	
+	Additive errors are the most problematic since they do not scale with the input signal.
+
+Sine Wave Input vs Gaussian Distributed Signals
+
+	Traditional was sine but now it is broadband Gaussian distributed. In this way, you can will have better results when you don't use full scale voltages
+
+Smooth vs Jagged Distortion
+
+	Traditional ADC evaluation using sine waves can be misleading in the case of multi-channel time-interleaved ADCs.
+
+		1) Different types of errors (jagged and smooth)
+		2) THD is not always a good metric. For example, a system whose THD is perfect might be a bad optimization in real life, vice versa.
+
+	Solution :
+		- Check how THD changes with amplitude
+		- Seperate "smooth" and "jagged" distortion
+
+	?: What is the difference between jagged and smooth errors? 
+
+Time Domain vs Frequency Domain Modulation:
+
+	High speed ADC's are embedded so they have only one purpose. We can design our ADC based on that requirement. For example, in general there are two most common applications:
+		1) Frequency-division
+		2) Baseband : Focuses on time domain so no need to have a perfect signal. Offset can be tolareted.
+
+Rules of Thumb for TI ADC's:
+
+	1) Don't use branching if not necessary
+	2) Try to use one slice ADC
+	3) USe as few slices as possible
+
+Pipeline vs SAR:
+
+	SAR Arrays: 
+		+ Each slice is simple, energy-efficient slices 
+		- Requires many more slices for the same performance.
+		Usage: Lower-Resolution and High Speed
+
+	Pipelined ADCs:
+		+ Fewer slices 
+		- More complex design with potential gain/radix errors.
+		Usage: High-resolution
+
+	? : If ENOB is 5 bits, why do we design it as 8 bits?
+
+Time-Interleaved ADC with Slow Reference:
+
+	Initial plan was to use 4 slices. However, due to performance requirements, they changed the number of slice to 8. They used 1MS/s ADC as a reference. LMS loop and lookup table are used as a correction algortihm. Corrections are done in digital domain.
+
+	? : Why did they use slow reference? Trade-off?
+	?? : Where did they use a look-up table?
+
+Architecture Considerations and Limitations
+
+	It is important to check how various error sources affect the system and their types. For example, in broadband application, multiplicative erros can be relaxed. Therefore, you don't need to extend the hold time.
+	
+	Using four slices provide you a symmetric layout, balanced loading, simple clock generation. Star configuration will help you to have a equally distributed clock and input signal. Time skew can be corrected durig factory reset or at startup.
+
+	?: What is two-rank sampling network
+
+Second-Order Effects:
+
+	Effects can be interacted to each other. This is a big problem for calibrations. Kickback can become neglible if you use fewer slices.
+
+	? : What is kickback?
+
+Conclusion:
+
+	- There are multiple error sources.
+	- Pipeline has fewer slices whereas SAR slice is simple.
+	- Pipeline is for high resolution (7-14) whereas SAR arrays is for low resolution(5-10). In the middle resolution, there is a trade-off between them.
+

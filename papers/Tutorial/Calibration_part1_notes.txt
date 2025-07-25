@@ -1,0 +1,15 @@
+Calibration:
+
+
+	Notes present in here: 
+
+	https://www.notion.so/Summary-1-Calibration-and-Dynamic-Matching-in-Data-Converters-1c79a8057f3780458a78dca90a38a25f
+
+	
+	- Laser Trimming: In R-2R ladder systems, it is required to have a high precision. If you use laser trimming based on a reference (I^T in the paper), you can cut / trim a resistor based on resulting values. Drawback is having a long and costly process.
+
+	- Fuse Trimming: Not sure how it works. Compared to Laser trimming,
+
+		(+) Cost
+		(+) Time
+		(-) Precision

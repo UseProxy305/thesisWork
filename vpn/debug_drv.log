@@ -1,0 +1,1447 @@
+(P5820-T11876)07/16/25 16:28:46:515[Debug  846]: No oem .inf existing.
+(P5820-T11876)07/16/25 16:28:47:318[Debug  409]: Driver inf file is installed successfully.
+(P5820-T11876)07/16/25 16:28:50:920[Debug  462]: Driver gets installed successfully.
+(P18936-T13272)07/16/25 16:28:50:976[Debug  473]: Set debug level as 4
+(P18936-T13272)07/16/25 16:28:51:526[Debug 1303]: Driver status is: 4.
+(P18936-T13272)07/16/25 16:28:51:561[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P18936-T13272)07/16/25 16:28:51:561[Debug  670]: Search only.
+(P18936-T13272)07/16/25 16:28:51:578[Debug 1303]: Driver status is: 4.
+(P18936-T13272)07/16/25 16:28:51:641[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P18936-T13272)07/16/25 16:28:51:671[Debug  670]: Search only.
+(P18936-T13272)07/16/25 16:28:51:694[Debug   95]: Driver file version is 6.0.0.6.
+(P18936-T13272)07/16/25 16:28:51:712[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P18936-T13272)07/16/25 16:28:51:726[Debug  628]: Pif is operational. index = 10
+(P18936-T13272)07/16/25 16:28:51:740[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P18936-T13272)07/16/25 16:28:51:756[Debug  832]: Searching valid GP adapter.
+(P18936-T13272)07/16/25 16:28:51:778[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P18936-T13272)07/16/25 16:28:51:787[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P18936-T13272)07/16/25 16:28:51:804[Debug  937]: Searching: DevNode Status: Enabled.
+(P18936-T13272)07/16/25 16:28:51:819[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P18936-T13272)07/16/25 16:28:51:857[Debug  990]: Searching: Valid MTU is 1400.
+(P18936-T13272)07/16/25 16:28:51:899[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P18936-T13272)07/16/25 16:28:52:821[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P18936-T13272)07/16/25 16:28:52:822[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P18936-T13272)07/16/25 16:28:52:838[Debug 1527]: Disable adapter be called.
+(P18936-T13272)07/16/25 16:28:52:861[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P18936-T13272)07/16/25 16:28:52:871[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P18936-T13272)07/16/25 16:28:52:885[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P18936-T13272)07/16/25 16:28:52:900[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P18936-T13272)07/16/25 16:28:52:912[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P18936-T13272)07/16/25 16:28:52:926[Debug 1265]: PsvAdapterStatus(): devIndex = 5
+(P18936-T13272)07/16/25 16:28:52:942[Debug 1265]: PsvAdapterStatus(): devIndex = 6
+(P18936-T13272)07/16/25 16:28:52:954[Debug 1265]: PsvAdapterStatus(): devIndex = 7
+(P18936-T13272)07/16/25 16:28:52:966[Debug 1265]: PsvAdapterStatus(): devIndex = 8
+(P18936-T13272)07/16/25 16:28:52:977[Debug 1265]: PsvAdapterStatus(): devIndex = 9
+(P18936-T13272)07/16/25 16:28:52:989[Debug 1265]: PsvAdapterStatus(): devIndex = 10
+(P18936-T13272)07/16/25 16:28:53:001[Debug 1265]: PsvAdapterStatus(): devIndex = 11
+(P18936-T13272)07/16/25 16:28:53:010[Debug 1265]: PsvAdapterStatus(): devIndex = 12
+(P18936-T13272)07/16/25 16:28:53:021[Debug 1265]: PsvAdapterStatus(): devIndex = 13
+(P18936-T13272)07/16/25 16:28:53:030[Debug 1265]: PsvAdapterStatus(): devIndex = 14
+(P18936-T13272)07/16/25 16:28:53:040[Debug 1265]: PsvAdapterStatus(): devIndex = 15
+(P18936-T13272)07/16/25 16:28:53:050[Debug 1265]: PsvAdapterStatus(): devIndex = 16
+(P18936-T13272)07/16/25 16:28:53:059[Debug 1265]: PsvAdapterStatus(): devIndex = 17
+(P18936-T13272)07/16/25 16:28:53:070[Debug 1265]: PsvAdapterStatus(): devIndex = 18
+(P18936-T13272)07/16/25 16:28:53:080[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P18936-T13272)07/16/25 16:28:53:090[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P18936-T13272)07/16/25 16:28:55:158[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P18936-T13272)07/16/25 16:28:55:158[Debug 1392]: Disable Adapter success.
+(P18936-T13272)07/16/25 16:28:55:201[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P18936-T13272)07/16/25 16:28:55:221[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P18936-T13272)07/16/25 16:28:55:243[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P18936-T13272)07/16/25 16:28:55:259[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P18936-T13272)07/16/25 16:28:55:277[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P18936-T13272)07/16/25 16:28:55:296[Debug 1265]: PsvAdapterStatus(): devIndex = 5
+(P18936-T13272)07/16/25 16:28:55:309[Debug 1265]: PsvAdapterStatus(): devIndex = 6
+(P18936-T13272)07/16/25 16:28:55:327[Debug 1265]: PsvAdapterStatus(): devIndex = 7
+(P18936-T13272)07/16/25 16:28:55:343[Debug 1265]: PsvAdapterStatus(): devIndex = 8
+(P18936-T13272)07/16/25 16:28:55:358[Debug 1265]: PsvAdapterStatus(): devIndex = 9
+(P18936-T13272)07/16/25 16:28:55:369[Debug 1265]: PsvAdapterStatus(): devIndex = 10
+(P18936-T13272)07/16/25 16:28:55:379[Debug 1265]: PsvAdapterStatus(): devIndex = 11
+(P18936-T13272)07/16/25 16:28:55:392[Debug 1265]: PsvAdapterStatus(): devIndex = 12
+(P18936-T13272)07/16/25 16:28:55:402[Debug 1265]: PsvAdapterStatus(): devIndex = 13
+(P18936-T13272)07/16/25 16:28:55:411[Debug 1265]: PsvAdapterStatus(): devIndex = 14
+(P18936-T13272)07/16/25 16:28:55:420[Debug 1265]: PsvAdapterStatus(): devIndex = 15
+(P18936-T13272)07/16/25 16:28:55:429[Debug 1265]: PsvAdapterStatus(): devIndex = 16
+(P18936-T13272)07/16/25 16:28:55:438[Debug 1265]: PsvAdapterStatus(): devIndex = 17
+(P18936-T13272)07/16/25 16:28:55:446[Debug 1265]: PsvAdapterStatus(): devIndex = 18
+(P18936-T13272)07/16/25 16:28:55:455[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P18936-T13272)07/16/25 16:28:55:466[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P18936-T13272)07/16/25 16:28:55:475[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P18936-T13272)07/16/25 16:28:55:485[Debug 1559]: Disable adapter end.
+(P18936-T13316)07/16/25 16:28:57:585[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 16:29:47:041[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 16:29:47:041[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 16:30:48:885[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 16:30:49:278[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 16:30:53:068[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 16:30:53:068[Info   473]: Set debug level as 4
+(P18936-T13680)07/16/25 16:30:53:094[Info  1267]: Register returns MAC 02:50:41:00:00:01.
+(P18936-T13680)07/16/25 16:30:53:302[Info   334]: Move binding order to the top
+(P18936-T13680)07/16/25 16:30:53:308[Debug  429]: Binding order is modified
+(P18936-T13680)07/16/25 16:30:53:313[Debug  460]: Found vif, index 60
+(P18936-T13680)07/16/25 16:30:53:313[Debug  532]: Enable IPv4 weak host send mode for interface 9
+(P18936-T13680)07/16/25 16:30:53:313[Debug  532]: Enable IPv4 weak host send mode for interface 4
+(P18936-T13680)07/16/25 16:30:53:313[Debug  532]: Enable IPv6 weak host send mode for interface 9
+(P18936-T13680)07/16/25 16:30:53:313[Debug  532]: Enable IPv6 weak host send mode for interface 4
+(P18936-T13680)07/16/25 16:30:53:313[Info   302]: Register ends.
+(P18936-T13680)07/16/25 16:30:53:449[Debug 1527]: Disable adapter be called.
+(P18936-T13680)07/16/25 16:30:53:457[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 5
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 6
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 7
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 8
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 9
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 10
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 11
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 12
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 13
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 14
+(P18936-T13680)07/16/25 16:30:53:458[Debug 1265]: PsvAdapterStatus(): devIndex = 15
+(P18936-T13680)07/16/25 16:30:53:459[Debug 1265]: PsvAdapterStatus(): devIndex = 16
+(P18936-T13680)07/16/25 16:30:53:459[Debug 1265]: PsvAdapterStatus(): devIndex = 17
+(P18936-T13680)07/16/25 16:30:53:459[Debug 1265]: PsvAdapterStatus(): devIndex = 18
+(P18936-T13680)07/16/25 16:30:53:459[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P18936-T13680)07/16/25 16:30:53:459[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 5
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 6
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 7
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 8
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 9
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 10
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 11
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 12
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 13
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 14
+(P18936-T13680)07/16/25 16:30:53:467[Debug 1265]: PsvAdapterStatus(): devIndex = 15
+(P18936-T13680)07/16/25 16:30:53:468[Debug 1265]: PsvAdapterStatus(): devIndex = 16
+(P18936-T13680)07/16/25 16:30:53:468[Debug 1265]: PsvAdapterStatus(): devIndex = 17
+(P18936-T13680)07/16/25 16:30:53:468[Debug 1265]: PsvAdapterStatus(): devIndex = 18
+(P18936-T13680)07/16/25 16:30:53:468[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P18936-T13680)07/16/25 16:30:53:468[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P18936-T13680)07/16/25 16:30:53:468[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P18936-T13680)07/16/25 16:30:53:468[Debug 1559]: Disable adapter end.
+(P18936-T13680)07/16/25 16:30:53:628[Debug 1565]: Enable adapter be called.
+(P18936-T13680)07/16/25 16:30:53:628[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P18936-T13680)07/16/25 16:30:53:628[Debug  628]: Pif is operational. index = 10
+(P18936-T13680)07/16/25 16:30:53:628[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P18936-T13680)07/16/25 16:30:53:635[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P18936-T13680)07/16/25 16:30:53:635[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 5
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 6
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 7
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 8
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 9
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 10
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 11
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 12
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 13
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 14
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 15
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 16
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 17
+(P18936-T13680)07/16/25 16:30:53:636[Debug 1265]: PsvAdapterStatus(): devIndex = 18
+(P18936-T13680)07/16/25 16:30:53:636[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P18936-T13680)07/16/25 16:30:53:636[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P18936-T13680)07/16/25 16:30:53:659[Debug  544]: PANGP Vitual Adapter enabled successfully
+(P18936-T13680)07/16/25 16:30:53:659[Debug 1406]: Enable Adapter success.
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 5
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 6
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 7
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 8
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 9
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 10
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 11
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 12
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 13
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 14
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 15
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 16
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 17
+(P18936-T13680)07/16/25 16:30:53:666[Debug 1265]: PsvAdapterStatus(): devIndex = 18
+(P18936-T13680)07/16/25 16:30:53:666[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P18936-T13680)07/16/25 16:30:53:667[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P18936-T13680)07/16/25 16:30:53:667[Debug 1603]: Enable adapter end.
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 5
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 6
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 7
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 8
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 9
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 10
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 11
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 12
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 13
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 14
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 15
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 16
+(P18936-T13680)07/16/25 16:30:53:674[Debug 1265]: PsvAdapterStatus(): devIndex = 17
+(P18936-T13680)07/16/25 16:30:53:675[Debug 1265]: PsvAdapterStatus(): devIndex = 18
+(P18936-T13680)07/16/25 16:30:53:675[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P18936-T13680)07/16/25 16:30:53:675[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P18936-T13680)07/16/25 16:30:53:675[Info   245]: Adapter device started. 0x0180200b
+(P18936-T13680)07/16/25 16:30:53:675[Info   249]: ----Driver Control is being started
+(P18936-T13680)07/16/25 16:30:53:675[Info   493]: Access driver events.
+(P18936-T13680)07/16/25 16:30:53:675[Info   510]: Device control set driver events.
+(P18936-T13680)07/16/25 16:30:53:675[Info   550]: Device control set debug level as 3.
+(P18936-T13680)07/16/25 16:30:53:675[Info   337]: Load driver control parameter 0x1.
+(P18936-T13680)07/16/25 16:30:53:675[Info   615]: Device control set control parameter as 0x1.
+(P18936-T13680)07/16/25 16:30:53:675[Debug 1063]: Device control get mac 02:50:41:00:00:01, size 6.
+(P18936-T13680)07/16/25 16:30:53:675[Debug 1215]: Device control get stat ends.
+(P18936-T13680)07/16/25 16:30:53:675[Info   361]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+(P18936-T13680)07/16/25 16:30:53:675[Info   375]: Start send thread.
+(P18936-T13680)07/16/25 16:30:53:675[Info   275]: Service callback table gets set.
+(P18936-T9404)07/16/25 16:30:53:711[Debug 1379]: New SendThread priority 2.
+(P18936-T9404)07/16/25 16:30:54:005[Debug  772]: Get packet length 0 error, prot 888e!
+(P18936-T13316)07/16/25 16:30:57:082[Info   473]: Set debug level as 4
+(P18936-T9404)07/16/25 16:30:59:019[Debug  772]: Get packet length 0 error, prot 888e!
+(P18936-T9404)07/16/25 16:31:04:019[Debug  772]: Get packet length 0 error, prot 888e!
+(P18936-T13316)07/16/25 17:30:56:845[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 18:30:56:440[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 19:30:57:324[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 20:30:56:212[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 21:30:56:620[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 22:30:56:999[Info   473]: Set debug level as 4
+(P18936-T13316)07/16/25 23:30:56:446[Info   473]: Set debug level as 4
+(P18936-T9404)07/17/25 00:00:59:348[Debug  772]: Get packet length 0 error, prot 888e!
+(P18936-T9404)07/17/25 00:00:59:395[Debug  772]: Get packet length 0 error, prot 888e!
+(P18936-T9692)07/17/25 00:01:14:468[Debug  576]: Restore IPv4 strong host model for interface 9
+(P18936-T9692)07/17/25 00:01:14:468[Debug  576]: Restore IPv4 strong host model for interface 4
+(P18936-T9692)07/17/25 00:01:14:468[Debug  576]: Restore IPv6 strong host model for interface 9
+(P18936-T9692)07/17/25 00:01:14:468[Debug  576]: Restore IPv6 strong host model for interface 4
+(P18936-T9692)07/17/25 00:01:14:468[Info   314]: Unregister ends.
+(P18936-T9692)07/17/25 00:01:14:468[Info   283]: ----Driver Control is being stopped
+(P18936-T9692)07/17/25 00:01:14:468[Info   401]: Send thread stops.
+(P18936-T9692)07/17/25 00:01:14:468[Debug 1527]: Disable adapter be called.
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 5
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 6
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 7
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 8
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 9
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 10
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 11
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 12
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 13
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 14
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 15
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 16
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 17
+(P18936-T9692)07/17/25 00:01:14:484[Debug 1265]: PsvAdapterStatus(): devIndex = 18
+(P18936-T9692)07/17/25 00:01:14:484[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P18936-T9692)07/17/25 00:01:14:484[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P18936-T9692)07/17/25 00:01:16:517[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1392]: Disable Adapter success.
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 5
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 6
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 7
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 8
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 9
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 10
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 11
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 12
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 13
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 14
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 15
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 16
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 17
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1265]: PsvAdapterStatus(): devIndex = 18
+(P18936-T9692)07/17/25 00:01:16:517[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P18936-T9692)07/17/25 00:01:16:517[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P18936-T9692)07/17/25 00:01:16:517[Debug 1559]: Disable adapter end.
+(P18936-T13316)07/17/25 00:01:16:908[Info   473]: Set debug level as 4
+(P18936-T13272)07/17/25 00:01:17:408[Info   283]: ----Driver Control is being stopped
+(P5976-T6160)07/17/25 08:58:08:864[Debug  473]: Set debug level as 4
+(P5976-T6160)07/17/25 08:58:12:509[Debug 1303]: Driver status is: 4.
+(P5976-T6160)07/17/25 08:58:12:662[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5976-T6160)07/17/25 08:58:12:662[Debug  670]: Search only.
+(P5976-T6160)07/17/25 08:58:12:678[Debug 1303]: Driver status is: 4.
+(P5976-T6160)07/17/25 08:58:12:694[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5976-T6160)07/17/25 08:58:12:694[Debug  670]: Search only.
+(P5976-T6160)07/17/25 08:58:12:725[Debug   95]: Driver file version is 6.0.0.6.
+(P5976-T6160)07/17/25 08:58:12:725[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5976-T6160)07/17/25 08:58:12:725[Debug  628]: Pif is operational. index = 10
+(P5976-T6160)07/17/25 08:58:12:725[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5976-T6160)07/17/25 08:58:12:725[Debug  832]: Searching valid GP adapter.
+(P5976-T6160)07/17/25 08:58:12:725[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5976-T6160)07/17/25 08:58:12:725[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5976-T6160)07/17/25 08:58:12:725[Debug  937]: Searching: DevNode Status: Enabled.
+(P5976-T6160)07/17/25 08:58:12:725[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5976-T6160)07/17/25 08:58:12:725[Debug  990]: Searching: Valid MTU is 1400.
+(P5976-T6160)07/17/25 08:58:12:725[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5976-T6160)07/17/25 08:58:12:950[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5976-T6160)07/17/25 08:58:12:950[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5976-T6160)07/17/25 08:58:12:950[Debug 1527]: Disable adapter be called.
+(P5976-T6160)07/17/25 08:58:12:960[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5976-T6160)07/17/25 08:58:12:960[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5976-T6160)07/17/25 08:58:12:960[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5976-T6160)07/17/25 08:58:12:960[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5976-T6160)07/17/25 08:58:12:960[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5976-T6160)07/17/25 08:58:12:960[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5976-T6160)07/17/25 08:58:12:960[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5976-T6160)07/17/25 08:58:18:530[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5976-T6160)07/17/25 08:58:18:530[Debug 1392]: Disable Adapter success.
+(P5976-T6160)07/17/25 08:58:18:530[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5976-T6160)07/17/25 08:58:18:530[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5976-T6160)07/17/25 08:58:18:530[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5976-T6160)07/17/25 08:58:18:530[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5976-T6160)07/17/25 08:58:18:530[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5976-T6160)07/17/25 08:58:18:530[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5976-T6160)07/17/25 08:58:18:546[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5976-T6160)07/17/25 08:58:18:546[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5976-T6160)07/17/25 08:58:18:546[Debug 1559]: Disable adapter end.
+(P5976-T3312)07/17/25 09:01:17:581[Info  1267]: Register returns MAC 02:50:41:00:00:01.
+(P5976-T3312)07/17/25 09:01:17:771[Info   334]: Move binding order to the top
+(P5976-T3312)07/17/25 09:01:17:776[Debug  413]: No need to adjust binding order
+(P5976-T3312)07/17/25 09:01:17:782[Debug  460]: Found vif, index 14
+(P5976-T3312)07/17/25 09:01:17:783[Debug  532]: Enable IPv4 weak host send mode for interface 9
+(P5976-T3312)07/17/25 09:01:17:783[Debug  532]: Enable IPv4 weak host send mode for interface 4
+(P5976-T3312)07/17/25 09:01:17:783[Debug  532]: Enable IPv6 weak host send mode for interface 9
+(P5976-T3312)07/17/25 09:01:17:783[Debug  532]: Enable IPv6 weak host send mode for interface 4
+(P5976-T3312)07/17/25 09:01:17:783[Info   302]: Register ends.
+(P5976-T11028)07/17/25 09:01:18:052[Info   473]: Set debug level as 4
+(P5976-T11028)07/17/25 09:01:18:063[Info   473]: Set debug level as 4
+(P5976-T3312)07/17/25 09:01:18:072[Debug 1527]: Disable adapter be called.
+(P5976-T3312)07/17/25 09:01:18:078[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5976-T3312)07/17/25 09:01:18:078[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5976-T3312)07/17/25 09:01:18:078[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5976-T3312)07/17/25 09:01:18:078[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5976-T3312)07/17/25 09:01:18:078[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5976-T3312)07/17/25 09:01:18:078[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5976-T3312)07/17/25 09:01:18:078[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5976-T3312)07/17/25 09:01:18:082[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5976-T3312)07/17/25 09:01:18:083[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5976-T3312)07/17/25 09:01:18:083[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5976-T3312)07/17/25 09:01:18:083[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5976-T3312)07/17/25 09:01:18:083[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5976-T3312)07/17/25 09:01:18:083[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5976-T3312)07/17/25 09:01:18:083[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5976-T3312)07/17/25 09:01:18:083[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5976-T3312)07/17/25 09:01:18:083[Debug 1559]: Disable adapter end.
+(P5976-T3312)07/17/25 09:01:18:108[Debug 1565]: Enable adapter be called.
+(P5976-T3312)07/17/25 09:01:18:108[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5976-T3312)07/17/25 09:01:18:108[Debug  628]: Pif is operational. index = 11
+(P5976-T3312)07/17/25 09:01:18:109[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5976-T3312)07/17/25 09:01:18:112[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5976-T3312)07/17/25 09:01:18:112[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5976-T3312)07/17/25 09:01:18:112[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5976-T3312)07/17/25 09:01:18:112[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5976-T3312)07/17/25 09:01:18:112[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5976-T3312)07/17/25 09:01:18:112[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5976-T3312)07/17/25 09:01:18:112[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5976-T3312)07/17/25 09:01:18:144[Debug  544]: PANGP Vitual Adapter enabled successfully
+(P5976-T3312)07/17/25 09:01:18:144[Debug 1406]: Enable Adapter success.
+(P5976-T3312)07/17/25 09:01:18:150[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5976-T3312)07/17/25 09:01:18:150[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5976-T3312)07/17/25 09:01:18:150[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5976-T3312)07/17/25 09:01:18:150[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5976-T3312)07/17/25 09:01:18:150[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5976-T3312)07/17/25 09:01:18:150[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5976-T3312)07/17/25 09:01:18:150[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5976-T3312)07/17/25 09:01:18:150[Debug 1603]: Enable adapter end.
+(P5976-T3312)07/17/25 09:01:18:158[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5976-T3312)07/17/25 09:01:18:158[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5976-T3312)07/17/25 09:01:18:158[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5976-T3312)07/17/25 09:01:18:158[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5976-T3312)07/17/25 09:01:18:158[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5976-T3312)07/17/25 09:01:18:158[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5976-T3312)07/17/25 09:01:18:158[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5976-T3312)07/17/25 09:01:18:158[Info   245]: Adapter device started. 0x0180200b
+(P5976-T3312)07/17/25 09:01:18:158[Info   249]: ----Driver Control is being started
+(P5976-T3312)07/17/25 09:01:18:158[Info   493]: Access driver events.
+(P5976-T3312)07/17/25 09:01:18:158[Info   510]: Device control set driver events.
+(P5976-T3312)07/17/25 09:01:18:158[Info   550]: Device control set debug level as 3.
+(P5976-T3312)07/17/25 09:01:18:158[Info   337]: Load driver control parameter 0x1.
+(P5976-T3312)07/17/25 09:01:18:158[Info   615]: Device control set control parameter as 0x1.
+(P5976-T3312)07/17/25 09:01:18:158[Debug 1063]: Device control get mac 02:50:41:00:00:01, size 6.
+(P5976-T3312)07/17/25 09:01:18:158[Debug 1215]: Device control get stat ends.
+(P5976-T3312)07/17/25 09:01:18:158[Info   361]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+(P5976-T3312)07/17/25 09:01:18:159[Info   375]: Start send thread.
+(P5976-T3312)07/17/25 09:01:18:159[Info   275]: Service callback table gets set.
+(P5976-T2956)07/17/25 09:01:18:165[Debug 1379]: New SendThread priority 2.
+(P5976-T2956)07/17/25 09:01:18:461[Debug  772]: Get packet length 0 error, prot 888e!
+(P5976-T11028)07/17/25 09:01:21:446[Info   473]: Set debug level as 4
+(P5976-T2956)07/17/25 09:01:23:461[Debug  772]: Get packet length 0 error, prot 888e!
+(P5976-T2956)07/17/25 09:01:28:464[Debug  772]: Get packet length 0 error, prot 888e!
+(P5976-T11028)07/17/25 10:01:21:834[Info   473]: Set debug level as 4
+(P5880-T7476)07/17/25 10:46:45:967[Debug  473]: Set debug level as 4
+(P5880-T7476)07/17/25 10:46:46:556[Debug 1303]: Driver status is: 4.
+(P5880-T7476)07/17/25 10:46:46:556[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5880-T7476)07/17/25 10:46:46:556[Debug  670]: Search only.
+(P5880-T7476)07/17/25 10:46:46:556[Debug 1303]: Driver status is: 4.
+(P5880-T7476)07/17/25 10:46:46:572[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5880-T7476)07/17/25 10:46:46:572[Debug  670]: Search only.
+(P5880-T7476)07/17/25 10:46:46:621[Debug   95]: Driver file version is 6.0.0.6.
+(P5880-T7476)07/17/25 10:46:46:621[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5880-T7476)07/17/25 10:46:46:621[Debug  628]: Pif is operational. index = 10
+(P5880-T7476)07/17/25 10:46:46:621[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5880-T7476)07/17/25 10:46:46:621[Debug  832]: Searching valid GP adapter.
+(P5880-T7476)07/17/25 10:46:46:621[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5880-T7476)07/17/25 10:46:46:621[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5880-T7476)07/17/25 10:46:46:621[Debug  937]: Searching: DevNode Status: Enabled.
+(P5880-T7476)07/17/25 10:46:46:621[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5880-T7476)07/17/25 10:46:46:621[Debug  990]: Searching: Valid MTU is 1400.
+(P5880-T7476)07/17/25 10:46:46:621[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5880-T7476)07/17/25 10:46:46:837[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5880-T7476)07/17/25 10:46:46:837[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5880-T7476)07/17/25 10:46:46:837[Debug 1527]: Disable adapter be called.
+(P5880-T7476)07/17/25 10:46:46:837[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5880-T7476)07/17/25 10:46:46:852[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5880-T7476)07/17/25 10:46:46:852[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5880-T7476)07/17/25 10:46:46:852[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5880-T7476)07/17/25 10:46:46:852[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5880-T7476)07/17/25 10:46:46:852[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5880-T7476)07/17/25 10:46:46:852[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5880-T7476)07/17/25 10:46:54:553[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5880-T7476)07/17/25 10:46:54:788[Debug 1392]: Disable Adapter success.
+(P5880-T7476)07/17/25 10:46:54:819[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5880-T7476)07/17/25 10:46:54:819[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5880-T7476)07/17/25 10:46:54:835[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5880-T7476)07/17/25 10:46:54:850[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5880-T7476)07/17/25 10:46:54:866[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5880-T7476)07/17/25 10:46:54:882[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5880-T7476)07/17/25 10:46:54:897[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5880-T7476)07/17/25 10:46:54:913[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5880-T7476)07/17/25 10:46:54:913[Debug 1559]: Disable adapter end.
+(P5840-T6848)07/17/25 15:38:55:350[Debug  473]: Set debug level as 4
+(P5840-T6848)07/17/25 15:38:59:379[Debug 1303]: Driver status is: 4.
+(P5840-T6848)07/17/25 15:38:59:394[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5840-T6848)07/17/25 15:38:59:394[Debug  670]: Search only.
+(P5840-T6848)07/17/25 15:38:59:394[Debug 1303]: Driver status is: 4.
+(P5840-T6848)07/17/25 15:38:59:394[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5840-T6848)07/17/25 15:38:59:394[Debug  670]: Search only.
+(P5840-T6848)07/17/25 15:38:59:519[Debug   95]: Driver file version is 6.0.0.6.
+(P5840-T6848)07/17/25 15:38:59:519[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5840-T6848)07/17/25 15:38:59:519[Debug  628]: Pif is operational. index = 10
+(P5840-T6848)07/17/25 15:38:59:519[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5840-T6848)07/17/25 15:38:59:519[Debug  832]: Searching valid GP adapter.
+(P5840-T6848)07/17/25 15:38:59:519[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5840-T6848)07/17/25 15:38:59:519[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5840-T6848)07/17/25 15:38:59:519[Debug  937]: Searching: DevNode Status: Enabled.
+(P5840-T6848)07/17/25 15:38:59:519[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5840-T6848)07/17/25 15:38:59:519[Debug  990]: Searching: Valid MTU is 1400.
+(P5840-T6848)07/17/25 15:38:59:519[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5840-T6848)07/17/25 15:38:59:741[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5840-T6848)07/17/25 15:38:59:741[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5840-T6848)07/17/25 15:38:59:741[Debug 1527]: Disable adapter be called.
+(P5840-T6848)07/17/25 15:38:59:741[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5840-T6848)07/17/25 15:38:59:741[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5840-T6848)07/17/25 15:38:59:741[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5840-T6848)07/17/25 15:38:59:757[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5840-T6848)07/17/25 15:38:59:757[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5840-T6848)07/17/25 15:38:59:757[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5840-T6848)07/17/25 15:38:59:757[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5840-T6848)07/17/25 15:39:09:355[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5840-T6848)07/17/25 15:39:09:545[Debug 1392]: Disable Adapter success.
+(P5840-T6848)07/17/25 15:39:09:560[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5840-T6848)07/17/25 15:39:09:576[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5840-T6848)07/17/25 15:39:09:576[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5840-T6848)07/17/25 15:39:09:591[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5840-T6848)07/17/25 15:39:09:607[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5840-T6848)07/17/25 15:39:09:607[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5840-T6848)07/17/25 15:39:09:623[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5840-T6848)07/17/25 15:39:09:638[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5840-T6848)07/17/25 15:39:09:654[Debug 1559]: Disable adapter end.
+(P5840-T7500)07/17/25 15:46:08:370[Info  1267]: Register returns MAC 02:50:41:00:00:01.
+(P5840-T7500)07/17/25 15:46:08:605[Info   334]: Move binding order to the top
+(P5840-T7500)07/17/25 15:46:08:613[Debug  413]: No need to adjust binding order
+(P5840-T7500)07/17/25 15:46:08:618[Debug  460]: Found vif, index 14
+(P5840-T7500)07/17/25 15:46:08:618[Debug  532]: Enable IPv4 weak host send mode for interface 9
+(P5840-T7500)07/17/25 15:46:08:618[Debug  532]: Enable IPv4 weak host send mode for interface 4
+(P5840-T7500)07/17/25 15:46:08:619[Debug  532]: Enable IPv6 weak host send mode for interface 9
+(P5840-T7500)07/17/25 15:46:08:619[Debug  532]: Enable IPv6 weak host send mode for interface 4
+(P5840-T7500)07/17/25 15:46:08:619[Info   302]: Register ends.
+(P5840-T9912)07/17/25 15:46:09:802[Info   473]: Set debug level as 4
+(P5840-T9912)07/17/25 15:46:09:805[Info   473]: Set debug level as 4
+(P5840-T7500)07/17/25 15:46:09:814[Debug 1527]: Disable adapter be called.
+(P5840-T7500)07/17/25 15:46:09:819[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5840-T7500)07/17/25 15:46:09:819[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5840-T7500)07/17/25 15:46:09:819[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5840-T7500)07/17/25 15:46:09:819[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5840-T7500)07/17/25 15:46:09:819[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5840-T7500)07/17/25 15:46:09:819[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5840-T7500)07/17/25 15:46:09:819[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5840-T7500)07/17/25 15:46:09:824[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5840-T7500)07/17/25 15:46:09:824[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5840-T7500)07/17/25 15:46:09:824[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5840-T7500)07/17/25 15:46:09:824[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5840-T7500)07/17/25 15:46:09:824[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5840-T7500)07/17/25 15:46:09:824[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5840-T7500)07/17/25 15:46:09:824[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5840-T7500)07/17/25 15:46:09:824[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5840-T7500)07/17/25 15:46:09:824[Debug 1559]: Disable adapter end.
+(P5840-T7500)07/17/25 15:46:09:862[Debug 1565]: Enable adapter be called.
+(P5840-T7500)07/17/25 15:46:09:862[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5840-T7500)07/17/25 15:46:09:862[Debug  628]: Pif is operational. index = 11
+(P5840-T7500)07/17/25 15:46:09:862[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5840-T7500)07/17/25 15:46:09:865[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5840-T7500)07/17/25 15:46:09:865[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5840-T7500)07/17/25 15:46:09:865[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5840-T7500)07/17/25 15:46:09:865[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5840-T7500)07/17/25 15:46:09:865[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5840-T7500)07/17/25 15:46:09:865[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5840-T7500)07/17/25 15:46:09:865[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5840-T7500)07/17/25 15:46:09:894[Debug  544]: PANGP Vitual Adapter enabled successfully
+(P5840-T7500)07/17/25 15:46:09:894[Debug 1406]: Enable Adapter success.
+(P5840-T7500)07/17/25 15:46:09:903[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5840-T7500)07/17/25 15:46:09:903[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5840-T7500)07/17/25 15:46:09:903[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5840-T7500)07/17/25 15:46:09:903[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5840-T7500)07/17/25 15:46:09:903[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5840-T7500)07/17/25 15:46:09:903[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5840-T7500)07/17/25 15:46:09:903[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5840-T7500)07/17/25 15:46:09:904[Debug 1603]: Enable adapter end.
+(P5840-T7500)07/17/25 15:46:09:915[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5840-T7500)07/17/25 15:46:09:915[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5840-T7500)07/17/25 15:46:09:915[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5840-T7500)07/17/25 15:46:09:916[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5840-T7500)07/17/25 15:46:09:916[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5840-T7500)07/17/25 15:46:09:916[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5840-T7500)07/17/25 15:46:09:916[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5840-T7500)07/17/25 15:46:09:916[Info   245]: Adapter device started. 0x0180200b
+(P5840-T7500)07/17/25 15:46:09:916[Info   249]: ----Driver Control is being started
+(P5840-T7500)07/17/25 15:46:09:916[Info   493]: Access driver events.
+(P5840-T7500)07/17/25 15:46:09:916[Info   510]: Device control set driver events.
+(P5840-T7500)07/17/25 15:46:09:916[Info   550]: Device control set debug level as 3.
+(P5840-T7500)07/17/25 15:46:09:916[Info   337]: Load driver control parameter 0x1.
+(P5840-T7500)07/17/25 15:46:09:929[Info   615]: Device control set control parameter as 0x1.
+(P5840-T7500)07/17/25 15:46:09:929[Debug 1063]: Device control get mac 02:50:41:00:00:01, size 6.
+(P5840-T7500)07/17/25 15:46:09:929[Debug 1215]: Device control get stat ends.
+(P5840-T7500)07/17/25 15:46:09:929[Info   361]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+(P5840-T7500)07/17/25 15:46:09:929[Info   375]: Start send thread.
+(P5840-T7500)07/17/25 15:46:09:929[Info   275]: Service callback table gets set.
+(P5840-T9348)07/17/25 15:46:09:995[Debug 1379]: New SendThread priority 2.
+(P5840-T9348)07/17/25 15:46:10:356[Debug  772]: Get packet length 0 error, prot 888e!
+(P5840-T9912)07/17/25 15:46:13:472[Info   473]: Set debug level as 4
+(P5840-T9348)07/17/25 15:46:15:366[Debug  772]: Get packet length 0 error, prot 888e!
+(P5840-T9348)07/17/25 15:46:20:369[Debug  772]: Get packet length 0 error, prot 888e!
+(P5840-T9912)07/17/25 16:46:13:627[Info   473]: Set debug level as 4
+(P5840-T9912)07/17/25 17:46:13:161[Info   473]: Set debug level as 4
+(P5840-T9912)07/17/25 18:46:13:585[Info   473]: Set debug level as 4
+(P5840-T9912)07/17/25 19:46:14:107[Info   473]: Set debug level as 4
+(P5840-T9912)07/17/25 20:46:14:637[Info   473]: Set debug level as 4
+(P5840-T9912)07/17/25 21:46:14:110[Info   473]: Set debug level as 4
+(P5840-T9912)07/17/25 22:46:14:592[Info   473]: Set debug level as 4
+(P5840-T9912)07/17/25 23:46:15:163[Info   473]: Set debug level as 4
+(P5840-T9348)07/18/25 00:44:20:940[Debug  772]: Get packet length 0 error, prot 888e!
+(P5840-T9348)07/18/25 00:44:21:128[Debug  772]: Get packet length 0 error, prot 888e!
+(P6000-T7444)07/18/25 14:15:13:000[Debug  473]: Set debug level as 4
+(P6000-T7444)07/18/25 14:15:13:791[Debug 1303]: Driver status is: 4.
+(P6000-T7444)07/18/25 14:15:13:801[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P6000-T7444)07/18/25 14:15:13:801[Debug  670]: Search only.
+(P6000-T7444)07/18/25 14:15:13:801[Debug 1303]: Driver status is: 4.
+(P6000-T7444)07/18/25 14:15:13:811[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P6000-T7444)07/18/25 14:15:13:811[Debug  670]: Search only.
+(P6000-T7444)07/18/25 14:15:13:842[Debug   95]: Driver file version is 6.0.0.6.
+(P6000-T7444)07/18/25 14:15:13:850[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P6000-T7444)07/18/25 14:15:13:852[Debug  628]: Pif is operational. index = 10
+(P6000-T7444)07/18/25 14:15:13:852[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P6000-T7444)07/18/25 14:15:13:852[Debug  832]: Searching valid GP adapter.
+(P6000-T7444)07/18/25 14:15:13:852[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P6000-T7444)07/18/25 14:15:13:852[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P6000-T7444)07/18/25 14:15:13:860[Debug  937]: Searching: DevNode Status: Enabled.
+(P6000-T7444)07/18/25 14:15:13:860[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P6000-T7444)07/18/25 14:15:13:860[Debug  990]: Searching: Valid MTU is 1400.
+(P6000-T7444)07/18/25 14:15:13:860[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P6000-T7444)07/18/25 14:15:14:155[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P6000-T7444)07/18/25 14:15:14:155[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P6000-T7444)07/18/25 14:15:14:155[Debug 1527]: Disable adapter be called.
+(P6000-T7444)07/18/25 14:15:14:165[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P6000-T7444)07/18/25 14:15:14:165[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P6000-T7444)07/18/25 14:15:14:165[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P6000-T7444)07/18/25 14:15:14:165[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P6000-T7444)07/18/25 14:15:14:165[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P6000-T7444)07/18/25 14:15:14:165[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P6000-T7444)07/18/25 14:15:14:165[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P6000-T7444)07/18/25 14:15:25:148[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P6000-T7444)07/18/25 14:15:25:307[Debug 1392]: Disable Adapter success.
+(P6000-T7444)07/18/25 14:15:25:338[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P6000-T7444)07/18/25 14:15:25:354[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P6000-T7444)07/18/25 14:15:25:370[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P6000-T7444)07/18/25 14:15:25:385[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P6000-T7444)07/18/25 14:15:25:385[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P6000-T7444)07/18/25 14:15:25:416[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P6000-T7444)07/18/25 14:15:25:432[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P6000-T7444)07/18/25 14:15:25:432[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P6000-T7444)07/18/25 14:15:25:448[Debug 1559]: Disable adapter end.
+(P6000-T6772)07/18/25 14:18:46:958[Info  1267]: Register returns MAC 02:50:41:00:00:01.
+(P6000-T6772)07/18/25 14:18:47:122[Info   334]: Move binding order to the top
+(P6000-T6772)07/18/25 14:18:47:127[Debug  413]: No need to adjust binding order
+(P6000-T6772)07/18/25 14:18:47:133[Debug  460]: Found vif, index 14
+(P6000-T6772)07/18/25 14:18:47:133[Debug  532]: Enable IPv4 weak host send mode for interface 9
+(P6000-T6772)07/18/25 14:18:47:133[Debug  532]: Enable IPv4 weak host send mode for interface 4
+(P6000-T6772)07/18/25 14:18:47:133[Debug  532]: Enable IPv6 weak host send mode for interface 9
+(P6000-T6772)07/18/25 14:18:47:133[Debug  532]: Enable IPv6 weak host send mode for interface 4
+(P6000-T6772)07/18/25 14:18:47:133[Info   302]: Register ends.
+(P6000-T13160)07/18/25 14:18:47:387[Info   473]: Set debug level as 4
+(P6000-T13160)07/18/25 14:18:47:391[Info   473]: Set debug level as 4
+(P6000-T6772)07/18/25 14:18:47:399[Debug 1527]: Disable adapter be called.
+(P6000-T6772)07/18/25 14:18:47:404[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P6000-T6772)07/18/25 14:18:47:404[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P6000-T6772)07/18/25 14:18:47:404[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P6000-T6772)07/18/25 14:18:47:404[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P6000-T6772)07/18/25 14:18:47:404[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P6000-T6772)07/18/25 14:18:47:404[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P6000-T6772)07/18/25 14:18:47:404[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P6000-T6772)07/18/25 14:18:47:408[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P6000-T6772)07/18/25 14:18:47:408[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P6000-T6772)07/18/25 14:18:47:408[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P6000-T6772)07/18/25 14:18:47:408[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P6000-T6772)07/18/25 14:18:47:408[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P6000-T6772)07/18/25 14:18:47:408[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P6000-T6772)07/18/25 14:18:47:408[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P6000-T6772)07/18/25 14:18:47:408[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P6000-T6772)07/18/25 14:18:47:408[Debug 1559]: Disable adapter end.
+(P6000-T6772)07/18/25 14:18:47:431[Debug 1565]: Enable adapter be called.
+(P6000-T6772)07/18/25 14:18:47:432[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P6000-T6772)07/18/25 14:18:47:432[Debug  628]: Pif is operational. index = 11
+(P6000-T6772)07/18/25 14:18:47:432[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P6000-T6772)07/18/25 14:18:47:434[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P6000-T6772)07/18/25 14:18:47:434[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P6000-T6772)07/18/25 14:18:47:434[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P6000-T6772)07/18/25 14:18:47:434[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P6000-T6772)07/18/25 14:18:47:434[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P6000-T6772)07/18/25 14:18:47:434[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P6000-T6772)07/18/25 14:18:47:435[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P6000-T6772)07/18/25 14:18:47:464[Debug  544]: PANGP Vitual Adapter enabled successfully
+(P6000-T6772)07/18/25 14:18:47:465[Debug 1406]: Enable Adapter success.
+(P6000-T6772)07/18/25 14:18:47:472[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P6000-T6772)07/18/25 14:18:47:472[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P6000-T6772)07/18/25 14:18:47:472[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P6000-T6772)07/18/25 14:18:47:472[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P6000-T6772)07/18/25 14:18:47:472[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P6000-T6772)07/18/25 14:18:47:472[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P6000-T6772)07/18/25 14:18:47:472[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P6000-T6772)07/18/25 14:18:47:472[Debug 1603]: Enable adapter end.
+(P6000-T6772)07/18/25 14:18:47:478[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P6000-T6772)07/18/25 14:18:47:478[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P6000-T6772)07/18/25 14:18:47:478[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P6000-T6772)07/18/25 14:18:47:478[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P6000-T6772)07/18/25 14:18:47:478[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P6000-T6772)07/18/25 14:18:47:478[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P6000-T6772)07/18/25 14:18:47:478[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P6000-T6772)07/18/25 14:18:47:478[Info   245]: Adapter device started. 0x0180200b
+(P6000-T6772)07/18/25 14:18:47:478[Info   249]: ----Driver Control is being started
+(P6000-T6772)07/18/25 14:18:47:478[Info   493]: Access driver events.
+(P6000-T6772)07/18/25 14:18:47:478[Info   510]: Device control set driver events.
+(P6000-T6772)07/18/25 14:18:47:478[Info   550]: Device control set debug level as 3.
+(P6000-T6772)07/18/25 14:18:47:478[Info   337]: Load driver control parameter 0x1.
+(P6000-T6772)07/18/25 14:18:47:478[Info   615]: Device control set control parameter as 0x1.
+(P6000-T6772)07/18/25 14:18:47:478[Debug 1063]: Device control get mac 02:50:41:00:00:01, size 6.
+(P6000-T6772)07/18/25 14:18:47:478[Debug 1215]: Device control get stat ends.
+(P6000-T6772)07/18/25 14:18:47:478[Info   361]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+(P6000-T6772)07/18/25 14:18:47:479[Info   375]: Start send thread.
+(P6000-T6772)07/18/25 14:18:47:479[Info   275]: Service callback table gets set.
+(P6000-T18928)07/18/25 14:18:47:490[Debug 1379]: New SendThread priority 2.
+(P6000-T18928)07/18/25 14:18:47:742[Debug  772]: Get packet length 0 error, prot 888e!
+(P6000-T13160)07/18/25 14:18:50:989[Info   473]: Set debug level as 4
+(P6000-T18928)07/18/25 14:18:52:749[Debug  772]: Get packet length 0 error, prot 888e!
+(P6000-T18928)07/18/25 14:18:57:750[Debug  772]: Get packet length 0 error, prot 888e!
+(P5916-T7584)07/18/25 14:45:42:435[Debug  473]: Set debug level as 4
+(P5916-T7584)07/18/25 14:45:43:184[Debug 1303]: Driver status is: 4.
+(P5916-T7584)07/18/25 14:45:43:184[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5916-T7584)07/18/25 14:45:43:184[Debug  670]: Search only.
+(P5916-T7584)07/18/25 14:45:43:200[Debug 1303]: Driver status is: 4.
+(P5916-T7584)07/18/25 14:45:43:200[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5916-T7584)07/18/25 14:45:43:200[Debug  670]: Search only.
+(P5916-T7584)07/18/25 14:45:43:654[Debug   95]: Driver file version is 6.0.0.6.
+(P5916-T7584)07/18/25 14:45:43:739[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5916-T7584)07/18/25 14:45:43:739[Debug  628]: Pif is operational. index = 10
+(P5916-T7584)07/18/25 14:45:43:739[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5916-T7584)07/18/25 14:45:43:739[Debug  832]: Searching valid GP adapter.
+(P5916-T7584)07/18/25 14:45:43:754[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5916-T7584)07/18/25 14:45:43:754[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5916-T7584)07/18/25 14:45:43:754[Debug  937]: Searching: DevNode Status: Enabled.
+(P5916-T7584)07/18/25 14:45:43:754[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5916-T7584)07/18/25 14:45:43:754[Debug  990]: Searching: Valid MTU is 1400.
+(P5916-T7584)07/18/25 14:45:43:754[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5916-T7584)07/18/25 14:45:44:318[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5916-T7584)07/18/25 14:45:44:318[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5916-T7584)07/18/25 14:45:44:318[Debug 1527]: Disable adapter be called.
+(P5916-T7584)07/18/25 14:45:44:340[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5916-T7584)07/18/25 14:45:44:340[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5916-T7584)07/18/25 14:45:44:340[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5916-T7584)07/18/25 14:45:44:340[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5916-T7584)07/18/25 14:45:44:356[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5916-T7584)07/18/25 14:45:44:356[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5916-T7584)07/18/25 14:45:44:356[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5916-T7584)07/18/25 14:45:54:660[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5916-T7584)07/18/25 14:45:54:691[Debug 1392]: Disable Adapter success.
+(P5916-T7584)07/18/25 14:45:54:723[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5916-T7584)07/18/25 14:45:54:738[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5916-T7584)07/18/25 14:45:54:754[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5916-T7584)07/18/25 14:45:54:754[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5916-T7584)07/18/25 14:45:54:770[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5916-T7584)07/18/25 14:45:54:770[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5916-T7584)07/18/25 14:45:54:785[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5916-T7584)07/18/25 14:45:54:801[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5916-T7584)07/18/25 14:45:54:816[Debug 1559]: Disable adapter end.
+(P5916-T14176)07/18/25 14:49:22:565[Info  1267]: Register returns MAC 02:50:41:00:00:01.
+(P5916-T14176)07/18/25 14:49:22:742[Info   334]: Move binding order to the top
+(P5916-T14176)07/18/25 14:49:22:747[Debug  413]: No need to adjust binding order
+(P5916-T14176)07/18/25 14:49:22:752[Debug  460]: Found vif, index 14
+(P5916-T14176)07/18/25 14:49:22:752[Debug  532]: Enable IPv4 weak host send mode for interface 9
+(P5916-T14176)07/18/25 14:49:22:752[Debug  532]: Enable IPv4 weak host send mode for interface 4
+(P5916-T14176)07/18/25 14:49:22:752[Debug  532]: Enable IPv6 weak host send mode for interface 9
+(P5916-T14176)07/18/25 14:49:22:752[Debug  532]: Enable IPv6 weak host send mode for interface 4
+(P5916-T14176)07/18/25 14:49:22:752[Info   302]: Register ends.
+(P5916-T9436)07/18/25 14:49:23:026[Info   473]: Set debug level as 4
+(P5916-T9436)07/18/25 14:49:23:030[Info   473]: Set debug level as 4
+(P5916-T14176)07/18/25 14:49:23:040[Debug 1527]: Disable adapter be called.
+(P5916-T14176)07/18/25 14:49:23:046[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5916-T14176)07/18/25 14:49:23:046[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5916-T14176)07/18/25 14:49:23:046[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5916-T14176)07/18/25 14:49:23:046[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5916-T14176)07/18/25 14:49:23:046[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5916-T14176)07/18/25 14:49:23:046[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5916-T14176)07/18/25 14:49:23:046[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5916-T14176)07/18/25 14:49:23:050[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5916-T14176)07/18/25 14:49:23:050[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5916-T14176)07/18/25 14:49:23:050[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5916-T14176)07/18/25 14:49:23:050[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5916-T14176)07/18/25 14:49:23:050[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5916-T14176)07/18/25 14:49:23:050[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5916-T14176)07/18/25 14:49:23:050[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5916-T14176)07/18/25 14:49:23:050[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5916-T14176)07/18/25 14:49:23:050[Debug 1559]: Disable adapter end.
+(P5916-T14176)07/18/25 14:49:23:075[Debug 1565]: Enable adapter be called.
+(P5916-T14176)07/18/25 14:49:23:075[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5916-T14176)07/18/25 14:49:23:075[Debug  628]: Pif is operational. index = 11
+(P5916-T14176)07/18/25 14:49:23:075[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5916-T14176)07/18/25 14:49:23:078[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5916-T14176)07/18/25 14:49:23:078[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5916-T14176)07/18/25 14:49:23:078[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5916-T14176)07/18/25 14:49:23:078[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5916-T14176)07/18/25 14:49:23:078[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5916-T14176)07/18/25 14:49:23:078[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5916-T14176)07/18/25 14:49:23:078[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5916-T14176)07/18/25 14:49:23:118[Debug  544]: PANGP Vitual Adapter enabled successfully
+(P5916-T14176)07/18/25 14:49:23:118[Debug 1406]: Enable Adapter success.
+(P5916-T14176)07/18/25 14:49:23:124[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5916-T14176)07/18/25 14:49:23:124[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5916-T14176)07/18/25 14:49:23:124[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5916-T14176)07/18/25 14:49:23:124[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5916-T14176)07/18/25 14:49:23:124[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5916-T14176)07/18/25 14:49:23:124[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5916-T14176)07/18/25 14:49:23:124[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5916-T14176)07/18/25 14:49:23:124[Debug 1603]: Enable adapter end.
+(P5916-T14176)07/18/25 14:49:23:132[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5916-T14176)07/18/25 14:49:23:132[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5916-T14176)07/18/25 14:49:23:132[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5916-T14176)07/18/25 14:49:23:132[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5916-T14176)07/18/25 14:49:23:132[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5916-T14176)07/18/25 14:49:23:133[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5916-T14176)07/18/25 14:49:23:133[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5916-T14176)07/18/25 14:49:23:133[Info   245]: Adapter device started. 0x0180200b
+(P5916-T14176)07/18/25 14:49:23:133[Info   249]: ----Driver Control is being started
+(P5916-T14176)07/18/25 14:49:23:133[Info   493]: Access driver events.
+(P5916-T14176)07/18/25 14:49:23:133[Info   510]: Device control set driver events.
+(P5916-T14176)07/18/25 14:49:23:133[Info   550]: Device control set debug level as 3.
+(P5916-T14176)07/18/25 14:49:23:133[Info   337]: Load driver control parameter 0x1.
+(P5916-T14176)07/18/25 14:49:23:133[Info   615]: Device control set control parameter as 0x1.
+(P5916-T14176)07/18/25 14:49:23:133[Debug 1063]: Device control get mac 02:50:41:00:00:01, size 6.
+(P5916-T14176)07/18/25 14:49:23:133[Debug 1215]: Device control get stat ends.
+(P5916-T14176)07/18/25 14:49:23:133[Info   361]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+(P5916-T14176)07/18/25 14:49:23:133[Info   375]: Start send thread.
+(P5916-T14176)07/18/25 14:49:23:133[Info   275]: Service callback table gets set.
+(P5916-T12988)07/18/25 14:49:23:145[Debug 1379]: New SendThread priority 2.
+(P5916-T12988)07/18/25 14:49:23:506[Debug  772]: Get packet length 0 error, prot 888e!
+(P5916-T9436)07/18/25 14:49:26:674[Info   473]: Set debug level as 4
+(P5916-T12988)07/18/25 14:49:28:513[Debug  772]: Get packet length 0 error, prot 888e!
+(P5916-T12988)07/18/25 14:49:33:527[Debug  772]: Get packet length 0 error, prot 888e!
+(P5916-T9436)07/18/25 15:49:26:505[Info   473]: Set debug level as 4
+(P5916-T9436)07/18/25 16:49:26:897[Info   473]: Set debug level as 4
+(P5916-T9436)07/18/25 17:49:26:322[Info   473]: Set debug level as 4
+(P5916-T9436)07/18/25 18:49:26:822[Info   473]: Set debug level as 4
+(P5916-T9436)07/18/25 19:49:26:256[Info   473]: Set debug level as 4
+(P5740-T7028)07/18/25 23:28:20:871[Debug  473]: Set debug level as 4
+(P5740-T7028)07/18/25 23:28:22:891[Debug 1303]: Driver status is: 4.
+(P5740-T7028)07/18/25 23:28:22:907[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5740-T7028)07/18/25 23:28:22:907[Debug  670]: Search only.
+(P5740-T7028)07/18/25 23:28:22:907[Debug 1303]: Driver status is: 4.
+(P5740-T7028)07/18/25 23:28:22:907[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5740-T7028)07/18/25 23:28:22:907[Debug  670]: Search only.
+(P5740-T7028)07/18/25 23:28:22:976[Debug   95]: Driver file version is 6.0.0.6.
+(P5740-T7028)07/18/25 23:28:22:976[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5740-T7028)07/18/25 23:28:22:976[Debug  628]: Pif is operational. index = 10
+(P5740-T7028)07/18/25 23:28:22:976[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5740-T7028)07/18/25 23:28:22:976[Debug  832]: Searching valid GP adapter.
+(P5740-T7028)07/18/25 23:28:22:976[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5740-T7028)07/18/25 23:28:22:976[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5740-T7028)07/18/25 23:28:22:976[Debug  937]: Searching: DevNode Status: Enabled.
+(P5740-T7028)07/18/25 23:28:22:976[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5740-T7028)07/18/25 23:28:22:976[Debug  990]: Searching: Valid MTU is 1400.
+(P5740-T7028)07/18/25 23:28:22:976[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5740-T7028)07/18/25 23:28:23:192[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5740-T7028)07/18/25 23:28:23:192[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5740-T7028)07/18/25 23:28:23:192[Debug 1527]: Disable adapter be called.
+(P5740-T7028)07/18/25 23:28:23:234[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5740-T7028)07/18/25 23:28:23:234[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5740-T7028)07/18/25 23:28:23:250[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5740-T7028)07/18/25 23:28:23:250[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5740-T7028)07/18/25 23:28:23:250[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5740-T7028)07/18/25 23:28:23:250[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5740-T7028)07/18/25 23:28:23:250[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5740-T7028)07/18/25 23:28:30:171[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5740-T7028)07/18/25 23:28:30:327[Debug 1392]: Disable Adapter success.
+(P5740-T7028)07/18/25 23:28:30:343[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5740-T7028)07/18/25 23:28:30:343[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5740-T7028)07/18/25 23:28:30:358[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5740-T7028)07/18/25 23:28:30:358[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5740-T7028)07/18/25 23:28:30:374[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5740-T7028)07/18/25 23:28:30:374[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5740-T7028)07/18/25 23:28:30:389[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5740-T7028)07/18/25 23:28:30:405[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5740-T7028)07/18/25 23:28:30:405[Debug 1559]: Disable adapter end.
+(P5740-T7028)07/19/25 03:24:02:581[Info   283]: ----Driver Control is being stopped
+(P5720-T7140)07/20/25 00:25:09:111[Debug  473]: Set debug level as 4
+(P5720-T7140)07/20/25 00:25:10:193[Debug 1303]: Driver status is: 4.
+(P5720-T7140)07/20/25 00:25:10:193[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5720-T7140)07/20/25 00:25:10:193[Debug  670]: Search only.
+(P5720-T7140)07/20/25 00:25:10:193[Debug 1303]: Driver status is: 4.
+(P5720-T7140)07/20/25 00:25:10:209[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5720-T7140)07/20/25 00:25:10:209[Debug  670]: Search only.
+(P5720-T7140)07/20/25 00:25:10:240[Debug   95]: Driver file version is 6.0.0.6.
+(P5720-T7140)07/20/25 00:25:10:240[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5720-T7140)07/20/25 00:25:10:240[Debug  628]: Pif is operational. index = 10
+(P5720-T7140)07/20/25 00:25:10:240[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5720-T7140)07/20/25 00:25:10:240[Debug  832]: Searching valid GP adapter.
+(P5720-T7140)07/20/25 00:25:10:256[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5720-T7140)07/20/25 00:25:10:256[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5720-T7140)07/20/25 00:25:10:256[Debug  937]: Searching: DevNode Status: Enabled.
+(P5720-T7140)07/20/25 00:25:10:256[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5720-T7140)07/20/25 00:25:10:256[Debug  990]: Searching: Valid MTU is 1400.
+(P5720-T7140)07/20/25 00:25:10:262[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5720-T7140)07/20/25 00:25:10:456[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5720-T7140)07/20/25 00:25:10:456[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5720-T7140)07/20/25 00:25:10:456[Debug 1527]: Disable adapter be called.
+(P5720-T7140)07/20/25 00:25:10:466[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5720-T7140)07/20/25 00:25:10:466[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5720-T7140)07/20/25 00:25:10:466[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5720-T7140)07/20/25 00:25:10:466[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5720-T7140)07/20/25 00:25:10:466[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5720-T7140)07/20/25 00:25:10:466[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5720-T7140)07/20/25 00:25:10:466[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5720-T7140)07/20/25 00:25:18:202[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5720-T7140)07/20/25 00:25:18:311[Debug 1392]: Disable Adapter success.
+(P5720-T7140)07/20/25 00:25:18:327[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5720-T7140)07/20/25 00:25:18:327[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5720-T7140)07/20/25 00:25:18:327[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5720-T7140)07/20/25 00:25:18:327[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5720-T7140)07/20/25 00:25:18:327[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5720-T7140)07/20/25 00:25:18:327[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5720-T7140)07/20/25 00:25:18:327[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5720-T7140)07/20/25 00:25:18:327[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5720-T7140)07/20/25 00:25:18:327[Debug 1559]: Disable adapter end.
+(P5720-T7140)07/20/25 01:16:00:829[Info   283]: ----Driver Control is being stopped
+(P5936-T5944)07/21/25 00:26:10:585[Debug  473]: Set debug level as 4
+(P5936-T5944)07/21/25 00:26:12:193[Debug 1303]: Driver status is: 4.
+(P5936-T5944)07/21/25 00:26:12:326[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5936-T5944)07/21/25 00:26:12:326[Debug  670]: Search only.
+(P5936-T5944)07/21/25 00:26:12:326[Debug 1303]: Driver status is: 4.
+(P5936-T5944)07/21/25 00:26:12:336[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5936-T5944)07/21/25 00:26:12:336[Debug  670]: Search only.
+(P5936-T5944)07/21/25 00:26:12:376[Debug   95]: Driver file version is 6.0.0.6.
+(P5936-T5944)07/21/25 00:26:12:376[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5936-T5944)07/21/25 00:26:12:376[Debug  628]: Pif is operational. index = 10
+(P5936-T5944)07/21/25 00:26:12:376[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5936-T5944)07/21/25 00:26:12:376[Debug  832]: Searching valid GP adapter.
+(P5936-T5944)07/21/25 00:26:12:384[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5936-T5944)07/21/25 00:26:12:384[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5936-T5944)07/21/25 00:26:12:384[Debug  937]: Searching: DevNode Status: Enabled.
+(P5936-T5944)07/21/25 00:26:12:384[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5936-T5944)07/21/25 00:26:12:384[Debug  990]: Searching: Valid MTU is 1400.
+(P5936-T5944)07/21/25 00:26:12:384[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5936-T5944)07/21/25 00:26:12:578[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5936-T5944)07/21/25 00:26:12:586[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5936-T5944)07/21/25 00:26:12:586[Debug 1527]: Disable adapter be called.
+(P5936-T5944)07/21/25 00:26:12:586[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5936-T5944)07/21/25 00:26:12:586[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5936-T5944)07/21/25 00:26:12:586[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5936-T5944)07/21/25 00:26:12:586[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5936-T5944)07/21/25 00:26:12:586[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5936-T5944)07/21/25 00:26:12:586[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5936-T5944)07/21/25 00:26:12:586[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5936-T5944)07/21/25 00:26:19:683[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5936-T5944)07/21/25 00:26:19:683[Debug 1392]: Disable Adapter success.
+(P5936-T5944)07/21/25 00:26:19:695[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5936-T5944)07/21/25 00:26:19:695[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5936-T5944)07/21/25 00:26:19:695[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5936-T5944)07/21/25 00:26:19:695[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5936-T5944)07/21/25 00:26:19:695[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5936-T5944)07/21/25 00:26:19:695[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5936-T5944)07/21/25 00:26:19:695[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5936-T5944)07/21/25 00:26:19:695[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5936-T5944)07/21/25 00:26:19:695[Debug 1559]: Disable adapter end.
+(P5828-T6304)07/21/25 02:04:23:169[Debug  473]: Set debug level as 4
+(P5828-T6304)07/21/25 02:04:29:030[Debug 1303]: Driver status is: 4.
+(P5828-T6304)07/21/25 02:04:29:046[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5828-T6304)07/21/25 02:04:29:046[Debug  670]: Search only.
+(P5828-T6304)07/21/25 02:04:29:046[Debug 1303]: Driver status is: 4.
+(P5828-T6304)07/21/25 02:04:29:046[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5828-T6304)07/21/25 02:04:29:046[Debug  670]: Search only.
+(P5828-T6304)07/21/25 02:04:29:093[Debug   95]: Driver file version is 6.0.0.6.
+(P5828-T6304)07/21/25 02:04:29:108[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5828-T6304)07/21/25 02:04:29:108[Debug  628]: Pif is operational. index = 10
+(P5828-T6304)07/21/25 02:04:29:108[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5828-T6304)07/21/25 02:04:29:108[Debug  832]: Searching valid GP adapter.
+(P5828-T6304)07/21/25 02:04:29:124[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5828-T6304)07/21/25 02:04:29:124[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5828-T6304)07/21/25 02:04:29:124[Debug  937]: Searching: DevNode Status: Enabled.
+(P5828-T6304)07/21/25 02:04:29:124[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5828-T6304)07/21/25 02:04:29:124[Debug  990]: Searching: Valid MTU is 1400.
+(P5828-T6304)07/21/25 02:04:29:124[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5828-T6304)07/21/25 02:04:29:486[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5828-T6304)07/21/25 02:04:29:486[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5828-T6304)07/21/25 02:04:29:486[Debug 1527]: Disable adapter be called.
+(P5828-T6304)07/21/25 02:04:29:486[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5828-T6304)07/21/25 02:04:29:486[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5828-T6304)07/21/25 02:04:29:486[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5828-T6304)07/21/25 02:04:29:486[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5828-T6304)07/21/25 02:04:29:486[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5828-T6304)07/21/25 02:04:29:486[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5828-T6304)07/21/25 02:04:29:486[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5828-T6304)07/21/25 02:04:32:658[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5828-T6304)07/21/25 02:04:32:674[Debug 1392]: Disable Adapter success.
+(P5828-T6304)07/21/25 02:04:32:674[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5828-T6304)07/21/25 02:04:32:674[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5828-T6304)07/21/25 02:04:32:674[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5828-T6304)07/21/25 02:04:32:674[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5828-T6304)07/21/25 02:04:32:674[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5828-T6304)07/21/25 02:04:32:674[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5828-T6304)07/21/25 02:04:32:674[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5828-T6304)07/21/25 02:04:32:674[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5828-T6304)07/21/25 02:04:32:674[Debug 1559]: Disable adapter end.
+(P5828-T6304)07/21/25 03:02:06:909[Info   283]: ----Driver Control is being stopped
+(P6012-T6588)07/21/25 14:45:45:194[Debug  473]: Set debug level as 4
+(P6012-T6588)07/21/25 14:45:49:795[Debug 1303]: Driver status is: 4.
+(P6012-T6588)07/21/25 14:45:49:999[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P6012-T6588)07/21/25 14:45:49:999[Debug  670]: Search only.
+(P6012-T6588)07/21/25 14:45:49:999[Debug 1303]: Driver status is: 4.
+(P6012-T6588)07/21/25 14:45:49:999[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P6012-T6588)07/21/25 14:45:49:999[Debug  670]: Search only.
+(P6012-T6588)07/21/25 14:45:50:046[Debug   95]: Driver file version is 6.0.0.6.
+(P6012-T6588)07/21/25 14:45:50:046[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P6012-T6588)07/21/25 14:45:50:062[Debug  628]: Pif is operational. index = 10
+(P6012-T6588)07/21/25 14:45:50:062[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P6012-T6588)07/21/25 14:45:50:062[Debug  832]: Searching valid GP adapter.
+(P6012-T6588)07/21/25 14:45:50:062[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P6012-T6588)07/21/25 14:45:50:062[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P6012-T6588)07/21/25 14:45:50:062[Debug  937]: Searching: DevNode Status: Enabled.
+(P6012-T6588)07/21/25 14:45:50:062[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P6012-T6588)07/21/25 14:45:50:084[Debug  990]: Searching: Valid MTU is 1400.
+(P6012-T6588)07/21/25 14:45:50:084[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P6012-T6588)07/21/25 14:45:50:363[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P6012-T6588)07/21/25 14:45:50:363[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P6012-T6588)07/21/25 14:45:50:363[Debug 1527]: Disable adapter be called.
+(P6012-T6588)07/21/25 14:45:50:378[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P6012-T6588)07/21/25 14:45:50:378[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P6012-T6588)07/21/25 14:45:50:378[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P6012-T6588)07/21/25 14:45:50:378[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P6012-T6588)07/21/25 14:45:50:378[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P6012-T6588)07/21/25 14:45:50:378[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P6012-T6588)07/21/25 14:45:50:378[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P6012-T6588)07/21/25 14:45:54:085[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P6012-T6588)07/21/25 14:45:54:085[Debug 1392]: Disable Adapter success.
+(P6012-T6588)07/21/25 14:45:54:085[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P6012-T6588)07/21/25 14:45:54:085[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P6012-T6588)07/21/25 14:45:54:085[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P6012-T6588)07/21/25 14:45:54:085[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P6012-T6588)07/21/25 14:45:54:085[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P6012-T6588)07/21/25 14:45:54:085[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P6012-T6588)07/21/25 14:45:54:085[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P6012-T6588)07/21/25 14:45:54:085[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P6012-T6588)07/21/25 14:45:54:085[Debug 1559]: Disable adapter end.
+(P6012-T6588)07/21/25 17:24:14:990[Info   283]: ----Driver Control is being stopped
+(P5784-T6256)07/21/25 20:01:18:406[Debug  473]: Set debug level as 4
+(P5784-T6256)07/21/25 20:01:21:809[Debug 1303]: Driver status is: 4.
+(P5784-T6256)07/21/25 20:01:21:900[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5784-T6256)07/21/25 20:01:21:900[Debug  670]: Search only.
+(P5784-T6256)07/21/25 20:01:21:915[Debug 1303]: Driver status is: 4.
+(P5784-T6256)07/21/25 20:01:21:915[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5784-T6256)07/21/25 20:01:21:915[Debug  670]: Search only.
+(P5784-T6256)07/21/25 20:01:21:953[Debug   95]: Driver file version is 6.0.0.6.
+(P5784-T6256)07/21/25 20:01:21:953[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5784-T6256)07/21/25 20:01:21:953[Debug  628]: Pif is operational. index = 10
+(P5784-T6256)07/21/25 20:01:21:953[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5784-T6256)07/21/25 20:01:21:953[Debug  832]: Searching valid GP adapter.
+(P5784-T6256)07/21/25 20:01:21:969[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5784-T6256)07/21/25 20:01:21:969[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5784-T6256)07/21/25 20:01:21:969[Debug  937]: Searching: DevNode Status: Enabled.
+(P5784-T6256)07/21/25 20:01:21:969[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5784-T6256)07/21/25 20:01:21:969[Debug  990]: Searching: Valid MTU is 1400.
+(P5784-T6256)07/21/25 20:01:21:969[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5784-T6256)07/21/25 20:01:22:209[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5784-T6256)07/21/25 20:01:22:209[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5784-T6256)07/21/25 20:01:22:209[Debug 1527]: Disable adapter be called.
+(P5784-T6256)07/21/25 20:01:22:211[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5784-T6256)07/21/25 20:01:22:211[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5784-T6256)07/21/25 20:01:22:211[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5784-T6256)07/21/25 20:01:22:211[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5784-T6256)07/21/25 20:01:22:211[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5784-T6256)07/21/25 20:01:22:211[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5784-T6256)07/21/25 20:01:22:211[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5784-T6256)07/21/25 20:01:26:161[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5784-T6256)07/21/25 20:01:26:161[Debug 1392]: Disable Adapter success.
+(P5784-T6256)07/21/25 20:01:26:161[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5784-T6256)07/21/25 20:01:26:161[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5784-T6256)07/21/25 20:01:26:161[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5784-T6256)07/21/25 20:01:26:161[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5784-T6256)07/21/25 20:01:26:161[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5784-T6256)07/21/25 20:01:26:161[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5784-T6256)07/21/25 20:01:26:161[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5784-T6256)07/21/25 20:01:26:161[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5784-T6256)07/21/25 20:01:26:161[Debug 1559]: Disable adapter end.
+(P5784-T6256)07/21/25 20:05:36:311[Info   283]: ----Driver Control is being stopped
+(P5776-T4344)07/21/25 22:29:39:592[Debug  473]: Set debug level as 4
+(P5776-T4344)07/21/25 22:29:43:139[Debug 1303]: Driver status is: 4.
+(P5776-T4344)07/21/25 22:29:43:339[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5776-T4344)07/21/25 22:29:43:355[Debug  670]: Search only.
+(P5776-T4344)07/21/25 22:29:43:355[Debug 1303]: Driver status is: 4.
+(P5776-T4344)07/21/25 22:29:43:355[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5776-T4344)07/21/25 22:29:43:355[Debug  670]: Search only.
+(P5776-T4344)07/21/25 22:29:43:403[Debug   95]: Driver file version is 6.0.0.6.
+(P5776-T4344)07/21/25 22:29:43:405[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5776-T4344)07/21/25 22:29:43:405[Debug  628]: Pif is operational. index = 10
+(P5776-T4344)07/21/25 22:29:43:405[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5776-T4344)07/21/25 22:29:43:405[Debug  832]: Searching valid GP adapter.
+(P5776-T4344)07/21/25 22:29:43:405[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5776-T4344)07/21/25 22:29:43:413[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5776-T4344)07/21/25 22:29:43:413[Debug  937]: Searching: DevNode Status: Enabled.
+(P5776-T4344)07/21/25 22:29:43:413[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5776-T4344)07/21/25 22:29:43:413[Debug  990]: Searching: Valid MTU is 1400.
+(P5776-T4344)07/21/25 22:29:43:413[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5776-T4344)07/21/25 22:29:43:607[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5776-T4344)07/21/25 22:29:43:607[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5776-T4344)07/21/25 22:29:43:607[Debug 1527]: Disable adapter be called.
+(P5776-T4344)07/21/25 22:29:43:617[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5776-T4344)07/21/25 22:29:43:617[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5776-T4344)07/21/25 22:29:43:617[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5776-T4344)07/21/25 22:29:43:617[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5776-T4344)07/21/25 22:29:43:617[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5776-T4344)07/21/25 22:29:43:617[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5776-T4344)07/21/25 22:29:43:617[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5776-T4344)07/21/25 22:29:48:319[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5776-T4344)07/21/25 22:29:48:319[Debug 1392]: Disable Adapter success.
+(P5776-T4344)07/21/25 22:29:48:335[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5776-T4344)07/21/25 22:29:48:335[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5776-T4344)07/21/25 22:29:48:335[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5776-T4344)07/21/25 22:29:48:335[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5776-T4344)07/21/25 22:29:48:335[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5776-T4344)07/21/25 22:29:48:335[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5776-T4344)07/21/25 22:29:48:335[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5776-T4344)07/21/25 22:29:48:335[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5776-T4344)07/21/25 22:29:48:335[Debug 1559]: Disable adapter end.
+(P5776-T4344)07/22/25 00:45:53:780[Info   283]: ----Driver Control is being stopped
+(P5780-T6060)07/22/25 15:45:12:995[Debug  473]: Set debug level as 4
+(P5780-T6060)07/22/25 15:45:16:443[Debug 1303]: Driver status is: 4.
+(P5780-T6060)07/22/25 15:45:16:644[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5780-T6060)07/22/25 15:45:16:644[Debug  670]: Search only.
+(P5780-T6060)07/22/25 15:45:16:644[Debug 1303]: Driver status is: 4.
+(P5780-T6060)07/22/25 15:45:16:644[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5780-T6060)07/22/25 15:45:16:644[Debug  670]: Search only.
+(P5780-T6060)07/22/25 15:45:16:713[Debug   95]: Driver file version is 6.0.0.6.
+(P5780-T6060)07/22/25 15:45:16:713[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5780-T6060)07/22/25 15:45:16:713[Debug  628]: Pif is operational. index = 10
+(P5780-T6060)07/22/25 15:45:16:713[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5780-T6060)07/22/25 15:45:16:713[Debug  832]: Searching valid GP adapter.
+(P5780-T6060)07/22/25 15:45:16:713[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5780-T6060)07/22/25 15:45:16:713[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5780-T6060)07/22/25 15:45:16:713[Debug  937]: Searching: DevNode Status: Enabled.
+(P5780-T6060)07/22/25 15:45:16:713[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5780-T6060)07/22/25 15:45:16:713[Debug  990]: Searching: Valid MTU is 1400.
+(P5780-T6060)07/22/25 15:45:16:713[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5780-T6060)07/22/25 15:45:16:919[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5780-T6060)07/22/25 15:45:16:921[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5780-T6060)07/22/25 15:45:16:921[Debug 1527]: Disable adapter be called.
+(P5780-T6060)07/22/25 15:45:16:921[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5780-T6060)07/22/25 15:45:16:921[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5780-T6060)07/22/25 15:45:16:921[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5780-T6060)07/22/25 15:45:16:921[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5780-T6060)07/22/25 15:45:16:921[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5780-T6060)07/22/25 15:45:16:921[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5780-T6060)07/22/25 15:45:16:921[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5780-T6060)07/22/25 15:45:21:882[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5780-T6060)07/22/25 15:45:21:882[Debug 1392]: Disable Adapter success.
+(P5780-T6060)07/22/25 15:45:21:882[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5780-T6060)07/22/25 15:45:21:882[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5780-T6060)07/22/25 15:45:21:882[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5780-T6060)07/22/25 15:45:21:882[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5780-T6060)07/22/25 15:45:21:882[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5780-T6060)07/22/25 15:45:21:882[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5780-T6060)07/22/25 15:45:21:882[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5780-T6060)07/22/25 15:45:21:882[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5780-T6060)07/22/25 15:45:21:882[Debug 1559]: Disable adapter end.
+(P5780-T17908)07/22/25 15:49:04:579[Info  1267]: Register returns MAC 02:50:41:00:00:01.
+(P5780-T17908)07/22/25 15:49:04:749[Info   334]: Move binding order to the top
+(P5780-T17908)07/22/25 15:49:04:754[Debug  413]: No need to adjust binding order
+(P5780-T17908)07/22/25 15:49:04:758[Debug  460]: Found vif, index 14
+(P5780-T17908)07/22/25 15:49:04:758[Debug  532]: Enable IPv4 weak host send mode for interface 9
+(P5780-T17908)07/22/25 15:49:04:758[Debug  532]: Enable IPv4 weak host send mode for interface 4
+(P5780-T17908)07/22/25 15:49:04:758[Debug  532]: Enable IPv6 weak host send mode for interface 9
+(P5780-T17908)07/22/25 15:49:04:758[Debug  532]: Enable IPv6 weak host send mode for interface 4
+(P5780-T17908)07/22/25 15:49:04:758[Info   302]: Register ends.
+(P5780-T11044)07/22/25 15:49:04:990[Info   473]: Set debug level as 4
+(P5780-T11044)07/22/25 15:49:04:997[Info   473]: Set debug level as 4
+(P5780-T17908)07/22/25 15:49:05:008[Debug 1527]: Disable adapter be called.
+(P5780-T17908)07/22/25 15:49:05:012[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5780-T17908)07/22/25 15:49:05:012[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5780-T17908)07/22/25 15:49:05:012[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5780-T17908)07/22/25 15:49:05:012[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5780-T17908)07/22/25 15:49:05:012[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5780-T17908)07/22/25 15:49:05:012[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5780-T17908)07/22/25 15:49:05:012[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5780-T17908)07/22/25 15:49:05:015[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5780-T17908)07/22/25 15:49:05:015[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5780-T17908)07/22/25 15:49:05:015[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5780-T17908)07/22/25 15:49:05:015[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5780-T17908)07/22/25 15:49:05:015[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5780-T17908)07/22/25 15:49:05:015[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5780-T17908)07/22/25 15:49:05:016[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5780-T17908)07/22/25 15:49:05:016[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5780-T17908)07/22/25 15:49:05:016[Debug 1559]: Disable adapter end.
+(P5780-T17908)07/22/25 15:49:05:039[Debug 1565]: Enable adapter be called.
+(P5780-T17908)07/22/25 15:49:05:039[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5780-T17908)07/22/25 15:49:05:039[Debug  628]: Pif is operational. index = 11
+(P5780-T17908)07/22/25 15:49:05:039[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5780-T17908)07/22/25 15:49:05:042[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5780-T17908)07/22/25 15:49:05:042[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5780-T17908)07/22/25 15:49:05:042[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5780-T17908)07/22/25 15:49:05:042[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5780-T17908)07/22/25 15:49:05:042[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5780-T17908)07/22/25 15:49:05:042[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5780-T17908)07/22/25 15:49:05:042[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5780-T17908)07/22/25 15:49:05:055[Debug  544]: PANGP Vitual Adapter enabled successfully
+(P5780-T17908)07/22/25 15:49:05:055[Debug 1406]: Enable Adapter success.
+(P5780-T17908)07/22/25 15:49:05:061[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5780-T17908)07/22/25 15:49:05:061[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5780-T17908)07/22/25 15:49:05:061[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5780-T17908)07/22/25 15:49:05:061[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5780-T17908)07/22/25 15:49:05:061[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5780-T17908)07/22/25 15:49:05:061[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5780-T17908)07/22/25 15:49:05:061[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5780-T17908)07/22/25 15:49:05:062[Debug 1603]: Enable adapter end.
+(P5780-T17908)07/22/25 15:49:05:074[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5780-T17908)07/22/25 15:49:05:074[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5780-T17908)07/22/25 15:49:05:074[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5780-T17908)07/22/25 15:49:05:075[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5780-T17908)07/22/25 15:49:05:075[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5780-T17908)07/22/25 15:49:05:075[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5780-T17908)07/22/25 15:49:05:075[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5780-T17908)07/22/25 15:49:05:075[Info   245]: Adapter device started. 0x0180200b
+(P5780-T17908)07/22/25 15:49:05:075[Info   249]: ----Driver Control is being started
+(P5780-T17908)07/22/25 15:49:05:075[Info   493]: Access driver events.
+(P5780-T17908)07/22/25 15:49:05:075[Info   510]: Device control set driver events.
+(P5780-T17908)07/22/25 15:49:05:075[Info   550]: Device control set debug level as 3.
+(P5780-T17908)07/22/25 15:49:05:075[Info   337]: Load driver control parameter 0x1.
+(P5780-T17908)07/22/25 15:49:05:075[Info   615]: Device control set control parameter as 0x1.
+(P5780-T17908)07/22/25 15:49:05:075[Debug 1063]: Device control get mac 02:50:41:00:00:01, size 6.
+(P5780-T17908)07/22/25 15:49:05:075[Debug 1215]: Device control get stat ends.
+(P5780-T17908)07/22/25 15:49:05:075[Info   361]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+(P5780-T17908)07/22/25 15:49:05:075[Info   375]: Start send thread.
+(P5780-T17908)07/22/25 15:49:05:075[Info   275]: Service callback table gets set.
+(P5780-T5636)07/22/25 15:49:05:093[Debug 1379]: New SendThread priority 2.
+(P5780-T5636)07/22/25 15:49:05:372[Debug  772]: Get packet length 0 error, prot 888e!
+(P5780-T11044)07/22/25 15:49:08:440[Info   473]: Set debug level as 4
+(P5780-T5636)07/22/25 15:49:10:380[Debug  772]: Get packet length 0 error, prot 888e!
+(P5780-T5636)07/22/25 15:49:15:384[Debug  772]: Get packet length 0 error, prot 888e!
+(P5780-T11044)07/22/25 16:49:09:122[Info   473]: Set debug level as 4
+(P5780-T11044)07/22/25 17:49:09:512[Info   473]: Set debug level as 4
+(P5780-T11044)07/22/25 18:49:10:024[Info   473]: Set debug level as 4
+(P5780-T11044)07/22/25 19:49:09:529[Info   473]: Set debug level as 4
+(P5780-T11044)07/22/25 20:49:10:026[Info   473]: Set debug level as 4
+(P5780-T11044)07/22/25 21:49:09:581[Info   473]: Set debug level as 4
+(P5780-T11044)07/22/25 22:49:10:031[Info   473]: Set debug level as 4
+(P5780-T11044)07/22/25 23:49:09:489[Info   473]: Set debug level as 4
+(P5780-T11044)07/23/25 00:49:09:919[Info   473]: Set debug level as 4
+(P5780-T5636)07/23/25 01:17:49:430[Debug  772]: Get packet length 0 error, prot 888e!
+(P5780-T5636)07/23/25 01:17:49:539[Debug  772]: Get packet length 0 error, prot 888e!
+(P5780-T5784)07/23/25 01:18:04:546[Debug  576]: Restore IPv4 strong host model for interface 9
+(P5780-T5784)07/23/25 01:18:04:546[Debug  576]: Restore IPv4 strong host model for interface 4
+(P5780-T5784)07/23/25 01:18:04:546[Debug  576]: Restore IPv6 strong host model for interface 9
+(P5780-T5784)07/23/25 01:18:04:546[Debug  576]: Restore IPv6 strong host model for interface 4
+(P5780-T5784)07/23/25 01:18:04:546[Info   314]: Unregister ends.
+(P5780-T5784)07/23/25 01:18:04:546[Info   283]: ----Driver Control is being stopped
+(P5780-T5784)07/23/25 01:18:04:546[Info   401]: Send thread stops.
+(P5780-T5784)07/23/25 01:18:04:546[Debug 1527]: Disable adapter be called.
+(P5780-T5784)07/23/25 01:18:04:546[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5780-T5784)07/23/25 01:18:04:546[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5780-T5784)07/23/25 01:18:04:546[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5780-T5784)07/23/25 01:18:04:546[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5780-T5784)07/23/25 01:18:04:546[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5780-T5784)07/23/25 01:18:04:546[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5780-T5784)07/23/25 01:18:04:546[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5780-T5784)07/23/25 01:18:06:584[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5780-T5784)07/23/25 01:18:06:584[Debug 1392]: Disable Adapter success.
+(P5780-T5784)07/23/25 01:18:06:584[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5780-T5784)07/23/25 01:18:06:584[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5780-T5784)07/23/25 01:18:06:584[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5780-T5784)07/23/25 01:18:06:584[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5780-T5784)07/23/25 01:18:06:584[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5780-T5784)07/23/25 01:18:06:584[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5780-T5784)07/23/25 01:18:06:584[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5780-T5784)07/23/25 01:18:06:584[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5780-T5784)07/23/25 01:18:06:584[Debug 1559]: Disable adapter end.
+(P5780-T11044)07/23/25 01:18:06:771[Info   473]: Set debug level as 4
+(P5780-T11044)07/23/25 01:18:06:849[Info   473]: Set debug level as 4
+(P5780-T6060)07/23/25 01:18:25:780[Info   283]: ----Driver Control is being stopped
+(P5704-T6236)07/23/25 22:34:17:456[Debug  473]: Set debug level as 4
+(P5704-T6236)07/23/25 22:34:30:406[Debug 1303]: Driver status is: 4.
+(P5704-T6236)07/23/25 22:34:30:438[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5704-T6236)07/23/25 22:34:30:438[Debug  670]: Search only.
+(P5704-T6236)07/23/25 22:34:30:438[Debug 1303]: Driver status is: 4.
+(P5704-T6236)07/23/25 22:34:30:453[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5704-T6236)07/23/25 22:34:30:453[Debug  670]: Search only.
+(P5704-T6236)07/23/25 22:34:30:500[Debug   95]: Driver file version is 6.0.0.6.
+(P5704-T6236)07/23/25 22:34:30:500[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5704-T6236)07/23/25 22:34:30:500[Debug  628]: Pif is operational. index = 10
+(P5704-T6236)07/23/25 22:34:30:500[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5704-T6236)07/23/25 22:34:30:500[Debug  832]: Searching valid GP adapter.
+(P5704-T6236)07/23/25 22:34:30:516[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5704-T6236)07/23/25 22:34:30:516[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5704-T6236)07/23/25 22:34:30:516[Debug  937]: Searching: DevNode Status: Enabled.
+(P5704-T6236)07/23/25 22:34:30:516[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5704-T6236)07/23/25 22:34:30:516[Debug  990]: Searching: Valid MTU is 1400.
+(P5704-T6236)07/23/25 22:34:30:516[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5704-T6236)07/23/25 22:34:31:001[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5704-T6236)07/23/25 22:34:31:001[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5704-T6236)07/23/25 22:34:31:001[Debug 1527]: Disable adapter be called.
+(P5704-T6236)07/23/25 22:34:31:001[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5704-T6236)07/23/25 22:34:31:001[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5704-T6236)07/23/25 22:34:31:001[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5704-T6236)07/23/25 22:34:31:001[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5704-T6236)07/23/25 22:34:31:001[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5704-T6236)07/23/25 22:34:31:001[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5704-T6236)07/23/25 22:34:31:001[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5704-T6236)07/23/25 22:34:33:047[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5704-T6236)07/23/25 22:34:33:047[Debug 1392]: Disable Adapter success.
+(P5704-T6236)07/23/25 22:34:33:047[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5704-T6236)07/23/25 22:34:33:047[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5704-T6236)07/23/25 22:34:33:047[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5704-T6236)07/23/25 22:34:33:047[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5704-T6236)07/23/25 22:34:33:047[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5704-T6236)07/23/25 22:34:33:047[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5704-T6236)07/23/25 22:34:33:047[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5704-T6236)07/23/25 22:34:33:063[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5704-T6236)07/23/25 22:34:33:063[Debug 1559]: Disable adapter end.
+(P5704-T6236)07/23/25 23:00:36:759[Info   283]: ----Driver Control is being stopped
+(P5776-T7060)07/25/25 09:47:05:511[Debug  473]: Set debug level as 4
+(P5776-T7060)07/25/25 09:47:08:966[Debug 1303]: Driver status is: 4.
+(P5776-T7060)07/25/25 09:47:09:066[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5776-T7060)07/25/25 09:47:09:066[Debug  670]: Search only.
+(P5776-T7060)07/25/25 09:47:09:066[Debug 1303]: Driver status is: 4.
+(P5776-T7060)07/25/25 09:47:09:082[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5776-T7060)07/25/25 09:47:09:082[Debug  670]: Search only.
+(P5776-T7060)07/25/25 09:47:09:120[Debug   95]: Driver file version is 6.0.0.6.
+(P5776-T7060)07/25/25 09:47:09:120[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5776-T7060)07/25/25 09:47:09:120[Debug  628]: Pif is operational. index = 10
+(P5776-T7060)07/25/25 09:47:09:120[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5776-T7060)07/25/25 09:47:09:120[Debug  832]: Searching valid GP adapter.
+(P5776-T7060)07/25/25 09:47:09:135[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5776-T7060)07/25/25 09:47:09:135[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5776-T7060)07/25/25 09:47:09:135[Debug  937]: Searching: DevNode Status: Enabled.
+(P5776-T7060)07/25/25 09:47:09:135[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5776-T7060)07/25/25 09:47:09:135[Debug  990]: Searching: Valid MTU is 1400.
+(P5776-T7060)07/25/25 09:47:09:135[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5776-T7060)07/25/25 09:47:09:317[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5776-T7060)07/25/25 09:47:09:317[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5776-T7060)07/25/25 09:47:09:317[Debug 1527]: Disable adapter be called.
+(P5776-T7060)07/25/25 09:47:09:327[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5776-T7060)07/25/25 09:47:09:327[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5776-T7060)07/25/25 09:47:09:327[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5776-T7060)07/25/25 09:47:09:327[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5776-T7060)07/25/25 09:47:09:327[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5776-T7060)07/25/25 09:47:09:327[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5776-T7060)07/25/25 09:47:09:327[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5776-T7060)07/25/25 09:47:14:436[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5776-T7060)07/25/25 09:47:14:436[Debug 1392]: Disable Adapter success.
+(P5776-T7060)07/25/25 09:47:14:436[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5776-T7060)07/25/25 09:47:14:436[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5776-T7060)07/25/25 09:47:14:436[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5776-T7060)07/25/25 09:47:14:436[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5776-T7060)07/25/25 09:47:14:436[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5776-T7060)07/25/25 09:47:14:436[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5776-T7060)07/25/25 09:47:14:436[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5776-T7060)07/25/25 09:47:14:436[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5776-T7060)07/25/25 09:47:14:436[Debug 1559]: Disable adapter end.
+(P5776-T12996)07/25/25 09:50:04:403[Info  1267]: Register returns MAC 02:50:41:00:00:01.
+(P5776-T12996)07/25/25 09:50:04:660[Info   334]: Move binding order to the top
+(P5776-T12996)07/25/25 09:50:04:667[Debug  413]: No need to adjust binding order
+(P5776-T12996)07/25/25 09:50:04:677[Debug  460]: Found vif, index 14
+(P5776-T12996)07/25/25 09:50:04:677[Debug  532]: Enable IPv4 weak host send mode for interface 9
+(P5776-T12996)07/25/25 09:50:04:677[Debug  532]: Enable IPv4 weak host send mode for interface 4
+(P5776-T12996)07/25/25 09:50:04:677[Debug  532]: Enable IPv6 weak host send mode for interface 9
+(P5776-T12996)07/25/25 09:50:04:677[Debug  532]: Enable IPv6 weak host send mode for interface 4
+(P5776-T12996)07/25/25 09:50:04:677[Info   302]: Register ends.
+(P5776-T3352)07/25/25 09:50:05:078[Info   473]: Set debug level as 4
+(P5776-T3352)07/25/25 09:50:05:083[Info   473]: Set debug level as 4
+(P5776-T12996)07/25/25 09:50:05:105[Debug 1527]: Disable adapter be called.
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5776-T12996)07/25/25 09:50:05:115[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5776-T12996)07/25/25 09:50:05:115[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5776-T12996)07/25/25 09:50:05:115[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5776-T12996)07/25/25 09:50:05:115[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5776-T12996)07/25/25 09:50:05:115[Debug 1559]: Disable adapter end.
+(P5776-T12996)07/25/25 09:50:05:321[Debug 1565]: Enable adapter be called.
+(P5776-T12996)07/25/25 09:50:05:322[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5776-T12996)07/25/25 09:50:05:322[Debug  628]: Pif is operational. index = 11
+(P5776-T12996)07/25/25 09:50:05:323[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5776-T12996)07/25/25 09:50:05:359[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5776-T12996)07/25/25 09:50:05:359[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5776-T12996)07/25/25 09:50:05:359[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5776-T12996)07/25/25 09:50:05:359[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5776-T12996)07/25/25 09:50:05:359[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5776-T12996)07/25/25 09:50:05:359[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5776-T12996)07/25/25 09:50:05:359[Info  1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5776-T12996)07/25/25 09:50:05:562[Debug  544]: PANGP Vitual Adapter enabled successfully
+(P5776-T12996)07/25/25 09:50:05:562[Debug 1406]: Enable Adapter success.
+(P5776-T12996)07/25/25 09:50:05:604[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5776-T12996)07/25/25 09:50:05:605[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5776-T12996)07/25/25 09:50:05:605[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5776-T12996)07/25/25 09:50:05:605[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5776-T12996)07/25/25 09:50:05:605[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5776-T12996)07/25/25 09:50:05:605[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5776-T12996)07/25/25 09:50:05:606[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5776-T12996)07/25/25 09:50:05:606[Debug 1603]: Enable adapter end.
+(P5776-T12996)07/25/25 09:50:05:714[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5776-T12996)07/25/25 09:50:05:714[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5776-T12996)07/25/25 09:50:05:714[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5776-T12996)07/25/25 09:50:05:715[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5776-T12996)07/25/25 09:50:05:715[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5776-T12996)07/25/25 09:50:05:715[Info  1300]: enum devevice ROOT\PANGPD\0000.
+(P5776-T12996)07/25/25 09:50:05:715[Info  1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5776-T12996)07/25/25 09:50:05:716[Info   245]: Adapter device started. 0x0180200b
+(P5776-T12996)07/25/25 09:50:05:716[Info   249]: ----Driver Control is being started
+(P5776-T12996)07/25/25 09:50:05:716[Info   493]: Access driver events.
+(P5776-T12996)07/25/25 09:50:05:716[Info   510]: Device control set driver events.
+(P5776-T12996)07/25/25 09:50:05:716[Info   550]: Device control set debug level as 3.
+(P5776-T12996)07/25/25 09:50:05:716[Info   337]: Load driver control parameter 0x1.
+(P5776-T12996)07/25/25 09:50:05:716[Info   615]: Device control set control parameter as 0x1.
+(P5776-T12996)07/25/25 09:50:05:716[Debug 1063]: Device control get mac 02:50:41:00:00:01, size 6.
+(P5776-T12996)07/25/25 09:50:05:716[Debug 1215]: Device control get stat ends.
+(P5776-T12996)07/25/25 09:50:05:717[Info   361]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+(P5776-T12996)07/25/25 09:50:05:717[Info   375]: Start send thread.
+(P5776-T12996)07/25/25 09:50:05:717[Info   275]: Service callback table gets set.
+(P5776-T22468)07/25/25 09:50:05:779[Debug 1379]: New SendThread priority 2.
+(P5776-T22468)07/25/25 09:50:06:486[Debug  772]: Get packet length 0 error, prot 888e!
+(P5776-T3352)07/25/25 09:50:09:291[Info   473]: Set debug level as 4
+(P5776-T22468)07/25/25 09:50:11:491[Debug  772]: Get packet length 0 error, prot 888e!
+(P5776-T22468)07/25/25 09:50:16:492[Debug  772]: Get packet length 0 error, prot 888e!
+(P5928-T7044)07/25/25 09:59:49:654[Debug  473]: Set debug level as 4
+(P5928-T7044)07/25/25 09:59:54:915[Debug 1303]: Driver status is: 4.
+(P5928-T7044)07/25/25 09:59:55:146[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5928-T7044)07/25/25 09:59:55:153[Debug  670]: Search only.
+(P5928-T7044)07/25/25 09:59:55:153[Debug 1303]: Driver status is: 4.
+(P5928-T7044)07/25/25 09:59:55:155[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5928-T7044)07/25/25 09:59:55:155[Debug  670]: Search only.
+(P5928-T7044)07/25/25 09:59:55:195[Debug   95]: Driver file version is 6.0.0.6.
+(P5928-T7044)07/25/25 09:59:55:195[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5928-T7044)07/25/25 09:59:55:203[Debug  628]: Pif is operational. index = 10
+(P5928-T7044)07/25/25 09:59:55:203[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5928-T7044)07/25/25 09:59:55:203[Debug  832]: Searching valid GP adapter.
+(P5928-T7044)07/25/25 09:59:55:205[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5928-T7044)07/25/25 09:59:55:205[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5928-T7044)07/25/25 09:59:55:205[Debug  937]: Searching: DevNode Status: Enabled.
+(P5928-T7044)07/25/25 09:59:55:205[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5928-T7044)07/25/25 09:59:55:205[Debug  990]: Searching: Valid MTU is 1400.
+(P5928-T7044)07/25/25 09:59:55:205[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5928-T7044)07/25/25 09:59:55:489[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5928-T7044)07/25/25 09:59:55:489[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5928-T7044)07/25/25 09:59:55:489[Debug 1527]: Disable adapter be called.
+(P5928-T7044)07/25/25 09:59:55:511[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5928-T7044)07/25/25 09:59:55:519[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5928-T7044)07/25/25 09:59:55:519[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5928-T7044)07/25/25 09:59:55:521[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5928-T7044)07/25/25 09:59:55:522[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5928-T7044)07/25/25 09:59:55:522[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5928-T7044)07/25/25 09:59:55:522[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5928-T7044)07/25/25 10:00:03:087[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5928-T7044)07/25/25 10:00:03:087[Debug 1392]: Disable Adapter success.
+(P5928-T7044)07/25/25 10:00:03:103[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5928-T7044)07/25/25 10:00:03:103[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5928-T7044)07/25/25 10:00:03:118[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5928-T7044)07/25/25 10:00:03:134[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5928-T7044)07/25/25 10:00:03:134[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5928-T7044)07/25/25 10:00:03:150[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5928-T7044)07/25/25 10:00:03:159[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5928-T7044)07/25/25 10:00:03:159[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5928-T7044)07/25/25 10:00:03:175[Debug 1559]: Disable adapter end.
+(P5912-T5284)07/25/25 10:24:29:441[Debug  473]: Set debug level as 4
+(P5912-T5284)07/25/25 10:24:34:611[Debug 1303]: Driver status is: 4.
+(P5912-T5284)07/25/25 10:24:34:843[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5912-T5284)07/25/25 10:24:34:843[Debug  670]: Search only.
+(P5912-T5284)07/25/25 10:24:34:843[Debug 1303]: Driver status is: 4.
+(P5912-T5284)07/25/25 10:24:34:859[Debug  667]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+(P5912-T5284)07/25/25 10:24:34:859[Debug  670]: Search only.
+(P5912-T5284)07/25/25 10:24:34:896[Debug   95]: Driver file version is 6.0.0.6.
+(P5912-T5284)07/25/25 10:24:34:896[Debug  619]: Pif Device Instance ID: PCI\VEN_10EC&DEV_8168&SUBSYS_388417AA&REV_10\4&C30FDCB&0&00E3
+(P5912-T5284)07/25/25 10:24:34:896[Debug  628]: Pif is operational. index = 10
+(P5912-T5284)07/25/25 10:24:34:912[Debug  697]: check if any physical nic is enabled...result (0). 0 indicates found it
+(P5912-T5284)07/25/25 10:24:34:912[Debug  832]: Searching valid GP adapter.
+(P5912-T5284)07/25/25 10:24:34:912[Debug  917]: Searching: found PANGPD ROOT\PANGPD\0000.
+(P5912-T5284)07/25/25 10:24:34:912[Debug  934]: Searching: CM_Get_DevNode_Status() DevNode Status: return value: 0, Status 0x180200b, Problem 0x0
+(P5912-T5284)07/25/25 10:24:34:912[Debug  937]: Searching: DevNode Status: Enabled.
+(P5912-T5284)07/25/25 10:24:34:912[Debug  988]: Searching: Valid device id is ROOT\PANGPD\0000.
+(P5912-T5284)07/25/25 10:24:34:912[Debug  990]: Searching: Valid MTU is 1400.
+(P5912-T5284)07/25/25 10:24:34:912[Debug  991]: Searching: Valid instance id is {55035113-17CF-429D-A50F-437EC3313E64}.
+(P5912-T5284)07/25/25 10:24:35:166[Debug  993]: Searching: Valid inf file is C:\Windows\INF\oem114.inf.
+(P5912-T5284)07/25/25 10:24:35:166[Debug  150]: Init get valid adapter info: 1400-C:\Windows\INF\oem114.inf-{55035113-17CF-429D-A50F-437EC3313E64}-ROOT\PANGPD\0000.
+(P5912-T5284)07/25/25 10:24:35:166[Debug 1527]: Disable adapter be called.
+(P5912-T5284)07/25/25 10:24:35:166[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5912-T5284)07/25/25 10:24:35:166[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5912-T5284)07/25/25 10:24:35:166[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5912-T5284)07/25/25 10:24:35:166[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5912-T5284)07/25/25 10:24:35:166[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5912-T5284)07/25/25 10:24:35:166[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5912-T5284)07/25/25 10:24:35:166[Debug 1318]: DevNode Status 0x180200b, Problem 0x0.
+(P5912-T5284)07/25/25 10:24:42:776[Debug  582]: PANGP Vitual Adapter disabled successfully
+(P5912-T5284)07/25/25 10:24:42:791[Debug 1392]: Disable Adapter success.
+(P5912-T5284)07/25/25 10:24:42:807[Debug 1265]: PsvAdapterStatus(): devIndex = 0
+(P5912-T5284)07/25/25 10:24:42:823[Debug 1265]: PsvAdapterStatus(): devIndex = 1
+(P5912-T5284)07/25/25 10:24:42:838[Debug 1265]: PsvAdapterStatus(): devIndex = 2
+(P5912-T5284)07/25/25 10:24:42:838[Debug 1265]: PsvAdapterStatus(): devIndex = 3
+(P5912-T5284)07/25/25 10:24:42:854[Debug 1265]: PsvAdapterStatus(): devIndex = 4
+(P5912-T5284)07/25/25 10:24:42:854[Debug 1300]: enum devevice ROOT\PANGPD\0000.
+(P5912-T5284)07/25/25 10:24:42:869[Debug 1318]: DevNode Status 0x1802401, Problem 0x16.
+(P5912-T5284)07/25/25 10:24:42:869[Debug 1535]: after disable adapter, get adapter status 0x1802401
+(P5912-T5284)07/25/25 10:24:42:885[Debug 1559]: Disable adapter end.

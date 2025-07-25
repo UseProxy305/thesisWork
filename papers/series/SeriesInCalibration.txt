@@ -1,0 +1,188 @@
+For general knowledge:
+
+	Let's think about a system, who contributes distortion and non-linearities to the signal. We can use power series in this case.
+
+		- We find coefficents for power series:
+			
+			ideal_input = ...;      % Known ideal input (e.g., ramp)
+			real_output = ...;      % Measured distorted output
+
+			% Fit inverse model: ideal_input ≈ b1*y + b2*y² + ...
+			Y = [real_output, real_output.^2, real_output.^3, ...];
+			% b * Y ≈ ideal_input
+			b = Y \ ideal_input;    % Least-squares solution
+
+
+		- Then, for every output, this algortihm will be applied this simple algortihm:
+			// In embedded C (e.g., on an FPGA/microcontroller)
+			float b[] = {1.1, -0.3, 0.2, -0.05};  // Stored coefficients
+
+			float calibrate_sample(float distored_output) {
+			    corrected_output = b[0]*distored_output + b[1]*(distored_output)^2 + b[2]*(distored_output)^3 + b[3]*(distored_output)^4;
+			    return corrected_output;
+			}
+ 
+
+	However, if a system has a distortion or noise based on a frequency that is applied (not memoryless anymore), then power series won't be effective anymore.
+
+	Memory Polinomial:
+
+		- If you have an output signal as following: (In other words, no cross term in the past, x(n)*x(n-1))
+
+			output(n)=0.8*input(n) − 0.1*input(n−1) + 0.2*input(n)^2 + 0.05*input(n−1)^2
+
+		- It means we have linear and quadratic terms:
+
+			% --- Step 1: Define true memory polynomial coefficients ---
+			% h_k(m) = coefficient for x(n-m)^k
+			h_true = [0.8, -0.1;    % Linear terms: h_1(0)=0.8, h_1(1)=-0.1
+			          0.2,  0.05];   % Quadratic terms: h_2(0)=0.2, h_2(1)=0.05
+
+			% --- Step 2: Generate input/output data ---
+			N = 1000;                       % Number of samples
+			x = randn(N, 1);                % Gaussian input signal
+			y = zeros(N, 1);
+
+		- Generate output
+
+			for n = 2:N
+			    % Linear terms (k=1)
+			    y(n) = h_true(1,1) * x(n)   + h_true(1,2) * x(n-1) + ...
+			    % Quadratic terms (k=2)
+			           h_true(2,1) * x(n)^2 + h_true(2,2) * x(n-1)^2;
+			end
+
+			% Add noise (optional)
+			y = y + 0.01 * randn(N, 1);
+
+		- Now, find the coefficents for  [output = h11*x(n) + h12*x(n-1) + h21*x(n)*x(n) + h22*x(n-1)*x(n-1)]
+			
+			% --- Step 3: Identify coefficients using least squares ---
+			% Build regression matrix Y: columns = [x(n), x(n-1), x(n)^2, x(n-1)^2]
+			Y = zeros(N, 4);
+			for n = 2:N
+			    Y(n, :) = [x(n), x(n-1), x(n)^2, x(n-1)^2];
+			end
+
+			% Solve Y * h_est ≈ y
+			h_est = Y(2:end, :) \ y(2:end);
+
+		- For debugging purposes:
+			% --- Step 4: Compare true vs. estimated coefficients ---
+			h_est_reshaped = reshape(h_est, 2, 2);  % Convert to 2x2 matrix
+			disp('True coefficients:'); disp(h_true);
+			disp('Estimated coefficients:'); disp(h_est_reshaped);
+			% --- Step 5: Validate ---
+			y_pred = Y(2:end, :) * h_est;
+			mse = mean(abs(y(2:end) - y_pred).^2);
+			disp(['MSE: ', num2str(mse)]);
+
+		- It will print the followings:
+			
+			True coefficients:
+		    0.8000   -0.1000
+		    0.2000    0.0500
+
+			Estimated coefficients:
+		    0.7998   -0.0999
+		    0.2005    0.0498
+			
+
+			MSE: 9.8e-06
+
+
+	Parallel Weiner
+
+		- It is composed of weiner models in parallel. Each branch will have its own coefficients in the formula, nonlinear and linear respectively.
+
+	
+
+
+
+	Volterra Series:
+
+		- We are going to simulate volterra model for real outputs 
+			% True Volterra kernels (unknown in real-world)
+			h1 = [0.9, 0.2, -0.1];                   % 1st-order (linear memory)
+			h2 = [0.1, -0.05, 0.02; -0.05, 0.03, 0]; % 2nd-order (quadratic memory)
+
+			% Apply Volterra model
+			real_output = zeros(size(x));
+			% Adding distortions
+			for n = 3:length(x)
+			    % 1st-order term (linear memory)
+			    real_output(n) = h1(1)*x(n) + h1(2)*x(n-1) + h1(3)*x(n-2);
+			    
+			    % 2nd-order term (quadratic with memory)
+			    real_output(n) = real_output(n) + h2(1,1)*x(n)^2 + h2(1,2)*x(n)*x(n-1) +
+			                   		h2(2,1)*x(n-1)*x(n) + h2(2,2)*x(n-1)^2;
+			end
+
+			% Add noise
+			real_output = real_output + 0.01*randn(size(real_output));
+
+		- Now, we can focus on the trying to find Volterra coefficients:
+
+			% Build regression matrix A
+			M = 2; % Memory length
+			order = 2; % Nonlinearity order
+			A = zeros(length(x), (M+1) + (M+1)^2); % Columns for h1 + h2
+
+			for n = M+1:length(x)
+			    % 1st-order terms (linear)
+			    A(n, 1:M+1) = [x(n), x(n-1), x(n-2)];
+			    
+			    % 2nd-order terms (quadratic)
+			    col = M+2;
+			    for m1 = 0:M
+			        for m2 = 0:M
+			            A(n, col) = x(n - m1) * x(n - m2);
+			            col = col + 1;
+			        end
+			    end
+			end
+
+			% A = [
+			%       x(3),    
+					x(2),    
+					x(1), 
+					... % Linear terms (h1)
+			%       x(3)^2,  
+					x(3)*x(2), 
+					x(3)*x(1),
+					... 
+			%       x(2)*x(3), 
+					x(2)^2,
+					x(2)*x(1), 
+					...
+			%       x(1)*x(3), 
+					x(1)*x(2), 
+					x(1)^2
+					... % Quadratic terms (h2)
+			        ]
+
+
+			% Solve A * b ≈ real_output
+			b = A(M+1:end, :) \ real_output(M+1:end)';
+
+		- In the implementation, we can put something like this one (implemented in C):
+			// Stored Volterra coefficients (from previous steps)
+			float b1[] = {0.95, -0.15, 0.05};   // 1st-order kernel
+			float b2[] = {0.08, -0.03, 0.01, ...}; // 2nd-order kernel (flattened)
+
+			float correct_sample(float x_now, float x_prev1, float x_prev2) {
+			    // 1st-order correction
+			    float y_corrected = b1[0]*x_now + b1[1]*x_prev1 + b1[2]*x_prev2;
+			    
+			    // 2nd-order correction
+			    y_corrected += b2[0]*x_now*x_now + b2[1]*x_now*x_prev1 + ...;
+			    
+			    return y_corrected;
+			}
+
+		- Note , no need to use x(2)*x(1) if you have already use x(1)*x(2)
+
+		- “Strongly nonlinear” system: sum will diverge, Volterra series becomes invalid . Volterra series are impractical in strongly nonlinear problems
+
+
+	

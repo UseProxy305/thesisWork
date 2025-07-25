@@ -1,0 +1,20 @@
+A. Passive Multiplication by 2
+	+ Parasitic capacitances are neglible in the SAR ADC due to high capacitance in DAC. In this proposed solution, there is a trade-off (we are having higher capacitance vs pre-amplification by 2)
+
+	- In figure 2, why is there a connection to Vcm when we are not sampling 
+
+
+B. Vcm -Based Switching Method
+	+ Switching the capacitive array (full binary weighted array) using lots of power. To limit it, we need to use smaller capacitance. However, there is a limit by technology and noise (kT/C). Thanks to split capacitive array, we can reduce the power.
+
+	+ There are more techniques to reduce this capacitance value. Vcm based is the one we are using. Capacitance will be halved and switching sequence will reduce power bt its one third.
+
+	+ This method doesn't use MSB capacitor so needs less power ? 
+
+	- Figure 3 ? How is Vout -Vin in the resting position?
+
+	+ Since the fully differential mode is being used, no worries about difference in Vcm.
+
+
+C. Charge-Recovery
+

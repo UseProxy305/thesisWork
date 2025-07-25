@@ -1,0 +1,94 @@
+Intro:
+
+	SAR ADCs are better in power efficiency and conversion speed. (due to its scalabiliy of simple analog and digital circuits)
+
+	First bit is MSB.
+
+	SAR ADC => T&H + Comparator + DAC + Logic(To store value)
+
+
+		SWITCH PART:
+
+			T&H => takes the input as gate high (track)
+			S&H => tales the input as gate rises (sample)
+
+			?: Pass Transistor Logic (PTL) has a problem when Vdd is close to Vtp + Vtn.
+			- That's why solo NMOS is being used.
+			- CLK can be connected to 2Vdd but it can cause an issue related to gate level of NMOS
+			- Bootstraping is better. CLK is being connected to Vdd + Vin
+
+			- During tracking, charge injection, jitter, sampling noise. During holding, leakage and capacitive coupling
+			
+			- From the equation Ron = 1/(um*Cox*(W/L)*(Vclk-Vin-Vth)), To get lower resistance, 
+				1) Increase Vclk
+				2) Use low threshold voltage transistor
+				3) Use bigger transistor
+			- Problems: 
+				1) Filtering: Cs with Ron will create low pass filter
+				2) Distortion based on Ron: Since Ron depends on Vin, it will result in distortion. However, as long as you don't get close to RonCs value for sampling this effect is neglible.
+				3) Distortion charge injection: It doesn't depend on f of Vin. Reducing area and using dummy capacitor are the solutions
+				* Trade-off : 
+				@high frequency, Ron is dominant @low frequencies, charge injection is dominant.
+				Size of transistor &&& Charge injection and Ron
+				4) Sampling Noise: 2kT/C when diff used. Solution is just using proper sizing of Cs
+				5) Clock Timing: Jitter | Skew (When it is constant delta t); For Time-Interleaved ADC's, it is critical
+				6) Leakage: Even if it is turned off, there is a resistive behaviour between drain and source. Solution: Minimizing W/L or using high threshold voltage transistors
+				7) Capacitive Coupling: Due to the Cds capacitance, it is being happened. Solution: Minimizing W/L or using layout techniques
+				* Note: Since we are using really tiny dimensions, last two problems become more and more crucial.
+
+
+		DAC PART: 
+
+			There are lots of options to implement switched capacitor network. One that paper explains is the monolothic one. There are tradeoff between: Power, Noise, Logic complexity, More references.
+			
+			Main topics of DAC Design is : Noise, Speed and Mismatch:
+				1) Speed : DAC will introduce again Ron due to switched in its system
+				2) Noise : Noises from T&H + Noise from switched capacitor network
+				3) Mismatch : If there is a mismatch between capacitors, it is terrible. It will affect the whole binary search tree.
+			
+			*Trade-off:
+				As you use bigger transistor, you will get better noise and mismatch
+				As you use smaller transistor, you will get better power, chip area and speed
+
+			Due to mismatch sensitivity, you should use common centroid and dummies in layout level. Also, you can use analog calibration to correct these mismatches by connecting capacitors in parallel. Moreover, there is a oversampling method. Even you can combine both of them
+
+		Comparator:
+
+			It is composed of two main parts, latch and preamplifier. Preamp => Initial Gain | Latch => Takes decision with positive feedback
+
+			? : Why does AN go down faster when we apply V+>V-
+
+			Problems:
+
+				1) Noise: @ Input = Analog noise  @ Output = Digital noise , which means it is critical when Vin is in the transition region and in the order of magniutude of the input referred noise
+				*Tradeoff:
+					Capacitance is in the tradeoff between noise and power.
+				2) Limit of speed: This metric depends on input voltage of preamplifier
+
+		Logic:
+
+			If you don't plan anything for high speed or low speed, standart type of thermometric is fine.
+
+
+		System Level Trade-off :
+
+			Metric #1) Noise
+
+				There are 4 different noise sources: Sampling | DAC | Comparator | Quantization. In low-resolution ADC's, noise will be dominated by Quantization since we can trade-off other noises with resolution. However, high-resolution ADC's will be suffered from other three types due to lack of trade-off.
+
+			Metric #2) Non-lineraity and distortion
+
+				In general, offset and gain errors do not cause distortion. However, in time-interleaved ADC's, it is very crucial. In general, distortion is coming from T&H or mismatch in DAC.
+
+			Metric #3) Speed
+
+				Async ADC is a way to get rid of external usage of clk. You just give Ts.
+
+			Metric #4) Power
+
+				Digital part increases with lin(N) whereas analog part increases with exp(N). For low-resolution, digital part is dominant. High- resolution ADC's will be dominanted by the analog part (DAC and Comparator) in terms of power.
+
+			Metric #5) Size
+
+				In the layout, biggest area will be occupied by the DAC. 
+
