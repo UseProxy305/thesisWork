@@ -1,0 +1,25 @@
+Foreground calibration:
+
+	It is for errors constant over time. 
+	Factory errors can be gone.
+	Coefficients is fused into Non volatile memory. 
+	The system can't be used during foreground calibration.
+
+	Self-calibration:
+		Allow the user to start a calibration process.
+		Still a foreground calibration
+
+Background Calibration:
+	
+	Correlation-based Background calibration:
+		Use the Pseudo-random noise signal to see how much an error is
+		Use an LMS to find the gain error
+			Ge​[n+1]=Ge​[n]+μ*Vd​[n]*(VR​[n]−Vd​[n]*Ge​[n])
+
+		Large mu => fast convergence but low accuracy
+		Small mu => slow convergence but high accuracy
+
+	Feed-forward correlation:
+		Waits for collecting all samples and calculates the scorrelation immediately after sampling is done
+		Gives jump updates
+		Faster but less smooth since no feedback is present
