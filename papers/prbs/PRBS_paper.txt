@@ -23,3 +23,9 @@ Background Calibration:
 		Waits for collecting all samples and calculates the scorrelation immediately after sampling is done
 		Gives jump updates
 		Faster but less smooth since no feedback is present
+
+
+	Calibration accuracy:
+
+		Normally, calibration accuracy is done by checking within these conditions like temperature, supply voltage, or aging.
+		But another important factor (often ignored) is the fact that it should work independently of the input signal's frequency and amplitude.
